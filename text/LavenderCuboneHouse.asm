@@ -1,25 +1,26 @@
 _LavenderCuboneHouseCuboneText::
-	text "CUBONE: Kyarugoo!@"
+	text "CUBONE: ¡Cubon!@"
 	text_end
 
 _LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText::
-	text "I hate those"
-	line "horrible ROCKETs!"
+	text "¡Odio a esos"
+	line "horribles ROCKET!"
 
-	para "That poor CUBONE's"
-	line "mother..."
+	para "La pobre madre"
+	line "de CUBONE..."
 
-	para "It was killed"
-	line "trying to escape"
-	cont "from TEAM ROCKET!"
+	para "¡Murió mientras"
+	line "intentaba escapar"
+	cont "del TEAM ROCKET!"
 	done
 
 _LavenderCuboneHouseBrunetteGirlGhostIsGoneText::
-	text "The GHOST of"
-	line "#MON TOWER is"
-	cont "gone!"
+	text "¡El GHOST de"
+	line "la TORRE #MON"
+	cont "se ha ido!"
 
-	para "Someone must have"
-	line "soothed its"
-	cont "restless soul!"
+	para "¡Alguien debe de"
+	line "haber calmado su"
+	cont "atormentada alma!"
 	done
+

@@ -1,108 +1,111 @@
 _Museum1FScientist1ComeAgainText::
-	text "Come again!"
+	text "¡Hasta pronto!"
 	done
 
 _Museum1FScientist1WouldYouLikeToComeInText::
-	text "It's ¥50 for a"
-	line "child's ticket."
+	text "Son 50¥ por un"
+	line "billete de niño."
 
-	para "Would you like to"
-	line "come in?"
+	para "¿Te gustaría"
+	line "entrar?"
 	done
 
 _Museum1FScientist1ThankYouText::
-	text "Right, ¥50!"
-	line "Thank you!"
+	text "¡50¥! ¡Vale!"
+	line "¡Gracias!"
 	done
 
 _Museum1FScientist1DontHaveEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "No tienes"
+	line "bastante dinero."
 	prompt
 
 _Museum1FScientist1DoYouKnowWhatAmberIsText::
-	text "You can't sneak"
-	line "in the back way!"
+	text "¡No puedes entrar"
+	line "por detrás!"
 
-	para "Oh, whatever!"
-	line "Do you know what"
-	cont "AMBER is?"
+	para "¡Oh, da igual!"
+	line "¿Sabes qué es"
+	cont "el ÁMBAR?"
 	done
 
 _Museum1FScientist1TheresALabSomewhereText::
-	text "There's a lab"
-	line "somewhere trying"
-	cont "to resurrect"
-	cont "ancient #MON"
-	cont "from AMBER."
+	text "Dicen que hay un"
+	line "laboratorio donde"
+	cont "intentan revivir"
+	cont "a viejos #MON"
+	cont "del ÁMBAR."
 	done
 
 _Museum1FScientist1AmberIsFossilizedTreeSapText::
-	text "AMBER is fossil-"
-	line "ized tree sap."
+	text "ÁMBAR es savia de"
+	line "árbol fosilizada."
 	done
 
 _Museum1FScientist1GoToOtherSideText::
-	text "Please go to the"
-	line "other side!"
+	text "¡Por favor, ve"
+	line "por el otro lado!"
 	done
 
 _Museum1FScientist1TakePlentyOfTimeText::
-	text "Take plenty of"
-	line "time to look!"
+	text "¡Lleva mucho"
+	line "tiempo mirar!"
 	done
 
 _Museum1FGamblerText::
-	text "That is one"
-	line "magnificent"
-	cont "fossil!"
+	text "¡Ese fósil es"
+	line "magnífico!"
 	done
 
 _Museum1FScientist2TakeThisToAPokemonLabText::
-	text "Ssh! I think that"
-	line "this chunk of"
-	cont "AMBER contains"
-	cont "#MON DNA!"
+	text "¡Ssh! ¡Creo que"
+	line "este trozo de"
+	cont "ÁMBAR contiene"
+	cont "ADN de #MON!"
 
-	para "It would be great"
-	line "if #MON could"
-	cont "be resurrected"
-	cont "from it!"
+	para "¡Sería genial"
+	line "poder revivir a"
+	cont "los #MON"
+	cont "con esto!"
 
-	para "But, my colleagues"
-	line "just ignore me!"
+	para "¡Pero mis colegas"
+	line "no me creen!"
 
-	para "So I have a favor"
-	line "to ask!"
+	para "¡Por eso te voy"
+	line "a pedir un favor!"
 
-	para "Take this to a"
-	line "#MON LAB and"
-	cont "get it examined!"
+	para "¡Lleva esto a un"
+	line "LAB. #MON"
+	cont "para analizarlo!"
 	prompt
 
 _Museum1FScientist2ReceivedOldAmberText::
-	text "<PLAYER> received"
-	line "OLD AMBER!@"
+	text "¡<PLAYER> recibe"
+	line "el ÁMBAR VIEJO!@"
 	text_end
 
 _Museum1FScientist2GetTheOldAmberCheckText::
-	text "Ssh! Get the OLD"
-	line "AMBER checked!"
+	text "¡Ssh! ¡Haz que"
+	line "analicen el"
+	cont "ÁMBAR VIEJO!"
 	done
 
 _Museum1FScientist2YouDontHaveSpaceText::
-	text "You don't have"
-	line "space for this!"
+	text "¡No tienes sitio"
+	line "para esto!"
 	done
 
 _Museum1FScientist3Text::
-	text "We are proud of 2"
-	line "fossils of very"
-	cont "rare, prehistoric"
-	cont "#MON!"
+	text "¡Tenemos 2"
+	line "fósiles de"
+	cont "unos #MON"
+	cont "muy raros y"
+	cont "prehistóricos!"
 	done
 
 _Museum1FOldAmberText::
-	text "The AMBER is"
-	line "clear and gold!"
+	text "¡El ÁMBAR es"
+	line "transparente y"
+	cont "de color oro!"
 	done
+

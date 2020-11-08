@@ -1,37 +1,40 @@
 _PokemonMansion3FSuperNerdBattleText::
-	text "This place is"
-	line "like, huge!"
+	text "Este lugar es..."
+	line "¡Gigantesco!"
 	done
 
 _PokemonMansion3FSuperNerdEndBattleText::
-	text "Ayah!"
+	text_start
+	line "¡Ayah!"
 	prompt
 
 _PokemonMansion3FSuperNerdAfterBattleText::
-	text "I wonder where"
-	line "my partner went."
+	text "Me pregunto"
+	line "adónde habrá ido"
+	cont "mi compañero."
 	done
 
 _PokemonMansion3FScientistBattleText::
-	text "My mentor once"
-	line "lived here."
+	text "Mi maestro vivió"
+	line "aquí hace tiempo."
 	done
 
 _PokemonMansion3FScientistEndBattleText::
-	text "Whew!"
-	line "Overwhelming!"
+	text "¡Uau!"
+	line "¡Impresionante!"
 	prompt
 
 _PokemonMansion3FScientistAfterBattleText::
-	text "So, you're stuck?"
-	line "Try jumping off"
-	cont "over there!"
+	text "¿Estás bloqueado?"
+	line "¡Tírate por ahí!"
 	done
 
 _PokemonMansion3FDiaryText::
-	text "Diary: Feb. 6"
-	line "MEW gave birth."
+	text "Diario:"
+	line "6 de febrero."
+	cont "MEW dio a luz."
 
-	para "We named the"
-	line "newborn MEWTWO."
+	para "Llamamos al"
+	line "pequeño MEWTWO."
 	done
+

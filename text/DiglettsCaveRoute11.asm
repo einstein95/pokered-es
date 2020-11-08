@@ -1,8 +1,10 @@
 _DiglettsCaveRoute11GamblerText::
-	text "What a surprise!"
-	line "DIGLETTs dug this"
-	cont "long tunnel!"
+	text "¡Vaya sorpresa!"
+	line "¡Los DIGLETT"
+	cont "cavaron este"
+	cont "largo túnel!"
 
-	para "It goes right to"
-	line "VIRIDIAN CITY!"
+	para "¡Va a la"
+	line "CIUDAD VERDE!"
 	done
+

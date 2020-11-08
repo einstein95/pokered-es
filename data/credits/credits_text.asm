@@ -49,30 +49,35 @@ CreditsTextPointers:
 	dw CredSaOota
 	dw CredYoshikawa
 	dw CredToOota
-	dw CredUSStaff
-	dw CredUSCoord
-	dw CredTilden
+	dw CredEUStaff
+	dw CredEUCoord
+	dw CredMoyse
+	dw CredPfitzner
+	dw CredKraft
 	dw CredKawakami
-	dw CredHiNakamura
-	dw CredGiese
-	dw CredOsborne
+	dw CredEdasawa
+	dw CredUesugi
+	dw CredYoshimura
 	dw CredTrans
-	dw CredOgasawara
-	dw CredIwata
+	dw CredAlcami
+	dw CredGreppi
+	dw CredNakamichi
 	dw CredIzushi
 	dw CredHarada
 	dw CredMurakawa
 	dw CredFukui
-	dw CredClub
-	dw CredPAAD
+	dw CredNoEProdTest
+	dw CredZehAndFey
+	dw CredNoAProdTest
+	dw CredHudsonAndBuechele
 	assert_table_length NUM_CRED_STRINGS
 
 CredVersion:
 IF DEF(_RED)
-	db -8, "RED VERSION STAFF@"
+	db -5, "EDICIÓN ROJA@"
 ENDC
 IF DEF(_BLUE)
-	db -8, "BLUE VERSION STAFF@"
+	db -5, "EDICIÓN AZUL@"
 ENDC
 CredTajiri:
 	db -6, "SATOSHI TAJIRI@"
@@ -133,33 +138,33 @@ CredMon:
 CredDirector:
 	db -3, "DIRECTOR@"
 CredProgrammers:
-	db -5, "PROGRAMMERS@"
+	db -6, "PROGRAMADORES@"
 CredCharDesign:
-	db -7, "CHARACTER DESIGN@"
+	db -8, "DISEñO PERSONAJES@"
 CredMusic:
-	db -2, "MUSIC@"
+	db -2, "MÚSICA@"
 CredSoundEffects:
-	db -6, "SOUND EFFECTS@"
+	db -8, "EFECTOS DE SONIDO@"
 CredGameDesign:
-	db -5, "GAME DESIGN@"
+	db -7, "DISEñO DEL JUEGO@"
 CredMonsterDesign:
-	db -6, "MONSTER DESIGN@"
+	db -7, "DISEñO CRIATURAS@"
 CredGameScene:
-	db -6, "GAME SCENARIO@"
+	db -8, "ESCENARIO DE JUEGO@"
 CredParam:
-	db -8, "PARAMETRIC DESIGN@"
+	db -8, "DISEñO PARAMÉTRICO@"
 CredMap:
-	db -4, "MAP DESIGN@"
+	db -8, "DISEñO DEL MAPEADO@"
 CredTest:
-	db -7, "PRODUCT TESTING@"
+	db -7, "TEST DE PRODUCTO@"
 CredSpecial:
-	db -6, "SPECIAL THANKS@"
+	db -7, "AGRADECIMIENTOS@"
 CredProducers:
-	db -4, "PRODUCERS@"
+	db -5, "PRODUCTORES@"
 CredProducer:
-	db -4, "PRODUCER@"
+	db -4, "PRODUCTOR@"
 CredExecutive:
-	db -8, "EXECUTIVE PRODUCER@"
+	db -7, "PROD. EJECUTIVO@"
 CredTamada:
 	db -6, "SOUSUKE TAMADA@"
 CredSaOota:
@@ -168,26 +173,32 @@ CredYoshikawa:
 	db -6, "RENA YOSHIKAWA@"
 CredToOota:
 	db -6, "TOMOMICHI OOTA@"
-CredUSStaff:
-	db -7, "US VERSION STAFF@"
-CredUSCoord:
-	db -7, "US COORDINATION@"
-CredTilden:
-	db -5, "GAIL TILDEN@"
+CredEUStaff:
+	db -6, "EQUIPO EUROPEO@"
+CredEUCoord:
+	db -9, "COORDINACIÓN EUROPA@"
+CredMoyse:
+	db -7, "CLAUDE M. MOYSE@"
+CredPfitzner:
+	db -7, "MARKUS PFITZNER@"
+CredKraft:
+	db -6, "JOHN D. KRAFT@"
 CredKawakami:
 	db -6, "NAOKO KAWAKAMI@"
-CredHiNakamura:
-	db -6, "HIRO NAKAMURA@"
-CredGiese:
-	db -6, "WILLIAM GIESE@"
-CredOsborne:
-	db -5, "SARA OSBORNE@"
+CredEdasawa:
+	db -6, "YUSUKE EDASAWA@"
+CredUesugi:
+	db -5, "HIRO UESUGI@"
+CredYoshimura:
+	db -7, "KAMON YOSHIMURA@"
 CredTrans:
-	db -7, "TEXT TRANSLATION@"
-CredOgasawara:
-	db -6, "NOB OGASAWARA@"
-CredIwata:
-	db -5, "SATORU IWATA@"
+	db -7, "TEXTO CASTELLANO@"
+CredAlcami:
+	db -5, "SUSA ALCAMI@"
+CredGreppi:
+	db -6, "ANTONIO GREPPI@"
+CredNakamichi:
+	db -7, "KIMIKO NAKAMICHI@"
 CredIzushi:
 	db -7, "TAKEHIRO IZUSHI@"
 CredHarada:
@@ -196,7 +207,11 @@ CredMurakawa:
 	db -7, "TERUKI MURAKAWA@"
 CredFukui:
 	db -5, "KOHTA FUKUI@"
-CredClub:
-	db -9, "NCL SUPER MARIO CLUB@"
-CredPAAD:
-	db -5, "PAAD TESTING@"
+CredNoEProdTest:
+	db -9, "NOE PRODUCT TESTING@"
+CredZehAndFey:
+	db -7, "KAI ZEH/ANDY FEY@"
+CredNoAProdTest:
+	db -9, "NOA PRODUCT TESTING@"
+CredHudsonAndBuechele:
+	db -9, "K.HUDSON/T.BUECHELE@"

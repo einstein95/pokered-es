@@ -1,86 +1,87 @@
 _WardensHouseWardenGibberish1Text::
-	text "WARDEN: Hif fuff"
-	line "hefifoo!"
+	text "GUARDA: ¡Fii fuff"
+	line "fefifu!"
 
-	para "Ha lof ha feef ee"
-	line "hafahi ho. Heff"
-	cont "hee fwee!"
+	para "A fof a fif ee"
+	line "afahi fo. ¡Eeff"
+	cont "fi fui!"
 	done
 
 _WardensHouseWardenGibberish2Text::
-	text "Ah howhee ho hoo!"
-	line "Eef ee hafahi ho!"
+	text "¡Ah fafee oo foo!"
+	line "¡Eef ee afafi fo!"
 	done
 
 _WardensHouseWardenGibberish3Text::
-	text "Ha? He ohay heh"
-	line "ha hoo ee haheh!"
+	text "¿Ah? ¡Fai fou fee"
+	line "fa foo if afee!"
 	done
 
 _WardensHouseWardenGaveTheGoldTeethText::
-	text "<PLAYER> gave the"
-	line "GOLD TEETH to the"
-	cont "WARDEN!@"
+	text "¡<PLAYER> le dio"
+	line "los DIENTES de"
+	cont "ORO al GUARDA!@"
 	text_end
 
 _WardensHouseWardenTeethPoppedInHisTeethText::
 	text_start
 
-	para "The WARDEN popped"
-	line "in his teeth!"
+	para "¡El GUARDA se"
+	line "puso sus dientes!"
 	prompt
 
 _WardensHouseWardenThanksText::
-	text "WARDEN: Thanks,"
-	line "kid! No one could"
-	cont "understand a word"
-	cont "that I said."
+	text "GUARDA: ¡Gracias,"
+	line "chaval! No había"
+	cont "quien me"
+	cont "entendiera."
 
-	para "I couldn't work"
-	line "that way."
-	cont "Let me give you"
-	cont "something for"
-	cont "your trouble."
+	para "¡Así no podía"
+	line "trabajar! ¡Te"
+	cont "daré algo por"
+	cont "las molestias!"
 	prompt
 
 _WardensHouseWardenReceivedHM04Text::
-	text "<PLAYER> received"
+	text "¡<PLAYER> recibió"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _WardensHouseWardenHM04ExplanationText::
-	text "WARDEN: HM04"
-	line "teaches STRENGTH!"
+	text "GUARDA: ¡La MO04"
+	line "enseña la FUERZA!"
 
-	para "It lets #MON"
-	line "move boulders"
-	cont "when you're out-"
-	cont "side of battle."
+	para "Tus #MON"
+	line "podrán mover"
+	cont "rocas cuando no"
+	cont "estés peleando."
 
-	para "Oh yes, did you"
-	line "find SECRET HOUSE"
-	cont "in SAFARI ZONE?"
+	para "¿Encontraste la"
+	line "CASA SECRETA en"
+	cont "la ZONA SAFARI?"
 
-	para "If you do, you"
-	line "win an HM!"
+	para "¡Si la has"
+	line "encontrado, una"
+	cont "MO habrás ganado!"
 
-	para "I hear it's the"
-	line "rare SURF HM."
+	para "¡Dicen que es la"
+	line "rara MO del SURF!"
 	done
 
 _WardensHouseWardenHM04NoRoomText::
-	text "Your pack is"
-	line "stuffed full!"
+	text "¡Tu mochila está"
+	line "súper llena!"
 	done
 
 _WardensHouseDisplayPhotosAndFossilsText::
-	text "#MON photos"
-	line "and fossils."
+	text "Fotos y fósiles"
+	line "de #MON."
 	done
 
 _WardensHouseDisplayMerchandiseText::
-	text "Old #MON"
-	line "merchandise."
+	text "¡Viejos objetos"
+	line "de los #MON!"
 	done
+

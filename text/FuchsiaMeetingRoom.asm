@@ -1,26 +1,30 @@
 _FuchsiaMeetingRoomSafariZoneWorker1::
-	text "We nicknamed the"
-	line "WARDEN SLOWPOKE."
+	text "Le pusimos de"
+	line "mote: el GUARDA"
+	cont "SLOWPOKE."
 
-	para "He and SLOWPOKE"
-	line "both look vacant!"
+	para "¡Él y SLOWPOKE"
+	line "parecen ociosos!"
 	done
 
 _FuchsiaMeetingRoomSafariZoneWorker2::
-	text "SLOWPOKE is very"
-	line "knowledgeable"
-	cont "about #MON!"
+	text "¡SLOWPOKE sabe"
+	line "mucho sobre los"
+	cont "#MON!"
 
-	para "He even has some"
-	line "fossils of rare,"
-	cont "extinct #MON!"
+	para "¡Tiene hasta"
+	line "varios fósiles de"
+	cont "raros y extintos"
+	cont "#MON!"
 	done
 
 _FuchsiaMeetingRoomSafariZoneWorker3::
-	text "SLOWPOKE came in,"
-	line "but I couldn't"
-	cont "understand him."
+	text "SLOWPOKE vino,"
+	line "pero no conseguí"
+	cont "entenderle nada."
 
-	para "I think he's got"
-	line "a speech problem!"
+	para "¡Creo que tiene"
+	line "problemas de"
+	cont "lenguaje!"
 	done
+

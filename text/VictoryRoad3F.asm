@@ -1,63 +1,74 @@
 _VictoryRoad3FCooltrainerM1BattleText::
-	text "I heard rumors of"
-	line "a child prodigy!"
+	text "¡Los rumores"
+	line "hablan de un"
+	cont "niño prodigio!"
 	done
 
 _VictoryRoad3FCooltrainerM1EndBattleText::
-	text "The"
-	line "rumors were true!"
+	text_start
+	line "¡Los rumores"
+	cont "eran ciertos!"
 	prompt
 
 _VictoryRoad3FCooltrainerM1AfterBattleText::
-	text "You beat GIOVANNI"
-	line "of TEAM ROCKET?"
+	text "¿Derrotaste a"
+	line "GIOVANNI del"
+	cont "TEAM ROCKET?"
 	done
 
 _VictoryRoad3FCooltrainerF1BattleText::
-	text "I'll show you just"
-	line "how good you are!"
+	text "¡Te demostraré lo"
+	line "bueno que eres!"
 	done
 
 _VictoryRoad3FCooltrainerF1EndBattleText::
-	text "I'm"
-	line "furious!"
+	text_start
+	line "¡Argh!"
+	cont "¡Me enfurezco!"
 	prompt
 
 _VictoryRoad3FCooltrainerF1AfterBattleText::
-	text "You showed me just"
-	line "how good I was!"
+	text "¡Me demostraste"
+	line "lo buena que era!"
 	done
 
 _VictoryRoad3FCooltrainerM2BattleText::
-	text "Only the chosen"
-	line "can pass here!"
+	text "¡Aquí sólo"
+	line "pueden pasar"
+	cont "los elegidos!"
 	done
 
 _VictoryRoad3FCooltrainerM2EndBattleText::
-	text "I"
-	line "don't believe it!"
+	text "¡No"
+	line "me lo puedo"
+	cont "creer!"
 	prompt
 
 _VictoryRoad3FCooltrainerM2AfterBattleText::
-	text "All trainers here"
-	line "are headed to the"
-	cont "#MON LEAGUE!"
-	cont "Be careful!"
+	text "¡Todos estos"
+	line "entrenadores"
+	cont "van a participar"
+	cont "en la LIGA"
+	cont "#MON!"
+	cont "¡Ten cuidado!"
 	done
 
 _VictoryRoad3FCooltrainerF2BattleText::
-	text "Trainers live to"
-	line "seek stronger"
-	cont "opponents!"
+	text "¡Los entrenadores"
+	line "sólo viven para"
+	cont "buscar enemigos"
+	cont "más fuertes!"
 	done
 
 _VictoryRoad3FCooltrainerF2EndBattleText::
-	text "Oh!"
-	line "So strong!"
+	text_start
+	line "¡Oooooh!"
+	cont "¡Eres tan fuerte!"
 	prompt
 
 _VictoryRoad3FCooltrainerF2AfterBattleText::
-	text "By fighting tough"
-	line "battles, you get"
-	cont "stronger!"
+	text "¡Librar duros"
+	line "combates te hará"
+	cont "más fuerte!"
 	done
+

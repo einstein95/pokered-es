@@ -1,35 +1,40 @@
 _UndergroundPathRoute7CopyUnusedGirlText::
-	text "I want to shop at"
-	line "the dept. store"
-	cont "in CELADON but..."
+	text "Quiero ir al"
+	line "centro comercial"
+	cont "de AZULONA..."
 
-	para "There are so many"
-	line "rough looking"
-	cont "people there."
+	para "Pero hay"
+	line "demasiada"
+	cont "gente rara."
 	done
 
 _UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText::
-	text "TEAM ROCKET had a"
-	line "secret hideout in"
-	cont "CELADON CITY?"
+	text "¿El TEAM ROCKET"
+	line "tenía una guarida"
+	cont "secreta en la"
+	cont "CIUDAD AZULONA?"
 	done
 
 _UndergroundPathRoute7CopyUnusedMiddleAgedManText::
-	text "You're here to"
-	line "shop in CELADON?"
+	text "¿Has venido a"
+	line "comprar a la"
+	cont "CIUDAD AZULONA?"
 
-	para "Just step outside"
-	line "and head west!"
+	para "¡Sal de aquí y"
+	line "dirígete al"
+	cont "oeste!"
 	done
 
 _UndergroundPathRoute7CopyUnusedGoesUnderSaffronText::
-	text "The UNDERGROUND"
-	line "PATH goes beneath"
-	cont "SAFFRON and leads"
-	cont "to LAVENDER."
+	text "El SUBTERRÁNEO"
+	line "pasa por debajo"
+	cont "de AZAFRÁN y"
+	cont "lleva al PUEBLO"
+	cont "LAVANDA."
 
-	para "If you're heading"
-	line "to CERULEAN, go"
-	cont "to the building"
-	cont "across the road."
+	para "Para ir hacia"
+	line "CELESTE, vete al"
+	cont "edificio del otro"
+	cont "lado del camino."
 	done
+

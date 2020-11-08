@@ -1,44 +1,48 @@
 _AgathaBeforeBattleText::
-	text "I am AGATHA of"
-	line "the ELITE FOUR!"
+	text "¡Yo soy AGATHA"
+	line "del ALTO MANDO!"
 
-	para "OAK's taken a lot"
-	line "of interest in"
-	cont "you, child!"
+	para "¡El PROF. OAK"
+	line "parece estar muy"
+	cont "interesado en ti!"
 
-	para "That old duff was"
-	line "once tough and"
-	cont "handsome! That"
-	cont "was decades ago!"
+	para "¡Hace tiempo ese"
+	line "viejo inútil era"
+	cont "fuerte y apuesto!"
+	cont "¡Pero eso fue"
+	cont "hace décadas!"
 
-	para "Now he just wants"
-	line "to fiddle with"
-	cont "his #DEX! He's"
-	cont "wrong! #MON"
-	cont "are for fighting!"
+	para "¡Ahora sólo"
+	line "juguetea con su"
+	cont "#DEX! ¡Pero"
+	cont "está equivocado!"
+	cont "¡Los #MON"
+	cont "son para luchar!"
 
-	para "<PLAYER>! I'll show"
-	line "you how a real"
-	cont "trainer fights!"
+	para "¡<PLAYER>! ¡Yo"
+	line "te enseñaré cómo"
+	cont "lucha un gran"
+	cont "entrenador!"
 	done
 
 _AgathaEndBattleText::
-	text "Oh ho!"
-	line "You're something"
-	cont "special, child!"
+	text "¡Oh oh!"
+	line "¡Eres bastante"
+	cont "especial, chico!"
 	prompt
 
 _AgathaAfterBattleText::
-	text "You win! I see"
-	line "what the old duff"
-	cont "sees in you now!"
+	text "¡Tú ganas! ¡Ya sé"
+	line "por qué ese viejo"
+	cont "inútil te aprecia"
+	cont "tanto!"
 
-	para "I have nothing"
-	line "else to say! Run"
-	cont "along now, child!"
+	para "¡No tengo nada"
+	line "más que decir! " 
+	cont "¡Vete ya niño!"
 	done
 
 _AgathasRoomAgathaDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Voz de alguien:"
+	line "¡No huyas!"
 	done

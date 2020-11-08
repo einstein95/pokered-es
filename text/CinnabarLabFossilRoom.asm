@@ -1,78 +1,78 @@
 _CinnabarLabFossilRoomScientist1Text::
-	text "Hiya!"
+	text "¡Hola!"
 
-	para "I am important"
-	line "doctor!"
+	para "¡Soy un doctor"
+	line "muy importante!"
 
-	para "I study here rare"
-	line "#MON fossils!"
+	para "¡Y aquí estudio"
+	line "raros fósiles de"
+	cont "#MON!"
 
-	para "You! Have you a"
-	line "fossil for me?"
+	para "¿Tienes algún"
+	line "fósil para mí?"
 	prompt
 
 _CinnabarLabFossilRoomScientist1NoFossilsText::
-	text "No! Is too bad!"
+	text "¡No! ¡Qué pena!"
 	done
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText::
-	text "I take a little"
-	line "time!"
+	text "¡Tardaré un poco!"
 
-	para "You go for walk a"
-	line "little while!"
+	para "¡Date un paseo"
+	line "mientras tanto!"
 	done
 
 _CinnabarLabFossilRoomScientist1FossilIsBackToLifeText::
-	text "Where were you?"
+	text "¿Dónde estabas?"
 
-	para "Your fossil is"
-	line "back to life!"
+	para "¡Tu fósil ha"
+	line "revivido!"
 
-	para "It was @"
+	para "¡Sabía que era un"
+	line "@"
 	text_ram wStringBuffer
-	text_start
-	line "like I think!"
+	text "!"
 	prompt
 
 _CinnabarLabFossilRoomScientist1SeesFossilText::
-	text "Oh! That is"
+	text "¡Oh! ¡Es un"
 	line "@"
 	text_ram wNameBuffer
 	text "!"
 
-	para "It is fossil of"
+	para "¡Es un fósil de"
 	line "@"
 	text_ram wStringBuffer
-	text ", a"
-	cont "#MON that is"
-	cont "already extinct!"
+	text ","
+	cont "un #MON"
+	cont "ya extinto!"
 
-	para "My Resurrection"
-	line "Machine will make"
-	cont "that #MON live"
-	cont "again!"
+	para "¡Mi Máquina de"
+	line "Resurrección"
+	cont "revivirá a ese"
+	cont "#MON!"
 	done
 
 _CinnabarLabFossilRoomScientist1TakesFossilText::
-	text "So! You hurry and"
-	line "give me that!"
+	text "¡Date prisa y"
+	line "dame eso!"
 
-	para "<PLAYER> handed"
-	line "over @"
+	para "¡<PLAYER> le"
+	line "dio @"
 	text_ram wNameBuffer
 	text "!"
 	prompt
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText2::
-	text "I take a little"
-	line "time!"
+	text "¡Me llevará un"
+	line "poco de tiempo!"
 
-	para "You go for walk a"
-	line "little while!"
+	para "¡Vete a dar un"
+	line "paseo!"
 	done
 
 _CinnabarLabFossilRoomScientist1ComeAgainText::
-	text "Aiyah! You come"
-	line "again!"
+	text "¡Eh! ¡Has venido"
+	line "a molestarme!"
 	done

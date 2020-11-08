@@ -138,8 +138,11 @@ DisplayMoneyBox:
 	ld c, 6
 	call ClearScreenArea
 	hlcoord 12, 1
+	ld de, CurrencyString
+	call PlaceString
+	hlcoord 12, 1
 	ld de, wPlayerMoney
-	ld c, 3 | LEADING_ZEROES | MONEY_SIGN
+	ld c, 3 | LEADING_ZEROES
 	call PrintBCDNumber
 	ld hl, wStatusFlags5
 	res BIT_NO_TEXT_DELAY, [hl]
@@ -502,9 +505,9 @@ DisplayFieldMoveMonMenu:
 INCLUDE "data/moves/field_move_names.asm"
 
 PokemonMenuEntries:
-	db   "STATS"
-	next "SWITCH"
-	next "CANCEL@"
+	db   "ESTAD."
+	next "CAMBIO"
+	next "SALIR@"
 
 GetMonFieldMoves:
 	ld a, [wWhichPokemon]

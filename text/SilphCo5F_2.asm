@@ -1,55 +1,63 @@
 _SilphCo5FRockerEndBattleText::
-	text "Oh"
-	line "goodness!"
+	text_start
+	line "¡Oh no!"
+	cont "¡Dios mío!"
 	prompt
 
 _SilphCo5FRockerAfterBattleText::
-	text "You're only on 5F."
-	line "It's a long way"
-	cont "to my BOSS!"
+	text "¡Sólo has llegado"
+	line "al 4P! ¡Mi JEFE"
+	cont "aún está muy"
+	cont "lejos!"
 	done
 
 _SilphCo5FRocket2BattleText::
-	text "Show TEAM ROCKET"
-	line "a little respect!"
+	text "¡Respeta un poco"
+	line "al TEAM ROCKET!"
 	done
 
 _SilphCo5FRocket2EndBattleText::
-	text "Cough..."
-	line "Cough..."
+	text_start
+	line "(Tos)... (Tos)..."
 	prompt
 
 _SilphCo5FRocket2AfterBattleText::
-	text "Which reminds me."
+	text "Eso me recuerda"
+	line "que..."
 
-	para "KOFFING evolves"
-	line "into WEEZING!"
+	para "¡KOFFING se"
+	line "transforma en"
+	cont "WEEZING!"
 	done
 
 _SilphCo5FPokemonReport1Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "¡Un INFORME sobre"
+	line "los #MON!"
 
-	para "#MON LAB"
-	line "created PORYGON,"
-	cont "the first virtual"
-	cont "reality #MON."
+	para "PORYGON, el "
+	line "primer #MON"
+	cont "virtual, se creó"
+	cont "en el LABORATORIO"
+	cont "#MON."
 	done
 
 _SilphCo5FPokemonReport2Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "¡Un INFORME sobre"
+	line "los #MON!"
 
-	para "Over 160 #MON"
-	line "techniques have"
-	cont "been confirmed."
+	para "¡Confirmados más"
+	line "de 160 ataques"
+	cont "de #MON!"
 	done
 
 _SilphCo5FPokemonReport3Text::
-	text "It's a #MON"
-	line "REPORT!"
+	text "¡Un INFORME sobre"
+	line "los #MON!"
 
-	para "4 #MON evolve"
-	line "only when traded"
-	cont "by link-cable."
+	para "¡Hay 4 #MON"
+	line "que sólo se"
+	cont "desarrollan si"
+	cont "se intercambian"
+	cont "vía cable-link!"
 	done
+

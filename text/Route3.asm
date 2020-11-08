@@ -1,145 +1,154 @@
 _Route3Text1::
-	text "Whew... I better"
-	line "take a rest..."
-	cont "Groan..."
+	text "¡Uff!... Mejor"
+	line "que descanse."
+	cont "(Gemido)..."
 
-	para "That tunnel from"
-	line "CERULEAN takes a"
-	cont "lot out of you!"
+	para "¡Ese túnel a"
+	line "CELESTE es"
+	cont "agotador!"
 	done
 
 _Route3Youngster1BattleText::
-	text "Hey! I met you in"
-	line "VIRIDIAN FOREST!"
+	text "¡Nos vimos en"
+	line "el BOSQUE VERDE!"
 	done
 
 _Route3Youngster1EndBattleText::
-	text "You"
-	line "beat me again!"
+	text "¡Otra"
+	line "vez ganaste!"
 	prompt
 
 _Route3Youngster1AfterBattleText::
-	text "There are other"
-	line "kinds of #MON"
-	cont "than those found"
-	cont "in the forest!"
+	text "¡Hay otros tipos"
+	line "de #MON"
+	cont "diferentes a los"
+	cont "del bosque!"
 	done
 
 _Route3Youngster2BattleText::
-	text "Hi! I like shorts!"
-	line "They're comfy and"
-	cont "easy to wear!"
+	text "¡Hola! ¡Me gustan"
+	line "los pantalones"
+	cont "cortos! ¡Son muy"
+	cont "cómodos!"
 	done
 
 _Route3Youngster2EndBattleText::
-	text "I don't"
-	line "believe it!"
+	text "¡No me lo"
+	line "puedo creer!"
 	prompt
 
 _Route3Youngster2AfterBattleText::
-	text "Are you storing"
-	line "your #MON on"
-	cont "PC? Each BOX can"
-	cont "hold 20 #MON!"
+	text "¿Estás guardando"
+	line "a tus #MON en"
+	cont "el PC? ¡Cada CAJA"
+	cont "puede tener"
+	cont "20 #MON!"
 	done
 
 _Route3CooltrainerF1BattleText::
-	text "You looked at me,"
-	line "didn't you?"
+	text "Estabas mirándome"
+	line "¿verdad?"
 	done
 
 _Route3CooltrainerF1EndBattleText::
-	text "You're"
-	line "mean!"
+	text "¡Eres"
+	line "muy malo!"
 	prompt
 
 _Route3CooltrainerF1AfterBattleText::
-	text "Quit staring if"
-	line "you don't want to"
-	cont "fight!"
+	text "¡Deja de mirarme"
+	line "si no quieres"
+	cont "luchar!"
 	done
 
 _Route3Youngster3BattleText::
-	text "Are you a trainer?"
-	line "Let's fight!"
+	text "¿Eres entrenador?"
+	line "¡Pues luchemos!"
 	done
 
 _Route3Youngster3EndBattleText::
-	text "If I"
-	line "had new #MON I"
-	cont "would've won!"
+	text "¡Con "
+	line "nuevos #MON te"
+	cont "habría ganado!"
 	prompt
 
 _Route3Youngster3AfterBattleText::
-	text "If a #MON BOX"
-	line "on the PC gets"
-	cont "full, just switch"
-	cont "to another BOX!"
+	text "¡Si una CAJA de"
+	line "#MON del PC"
+	cont "está llena,"
+	cont "cambia a otra"
+	cont "CAJA!"
 	done
 
 _Route3CooltrainerF2BattleText::
-	text "That look you"
-	line "gave me, it's so"
-	cont "intriguing!"
+	text "¡Esa mirada tuya"
+	line "fue de lo más"
+	cont "misteriosa!"
 	done
 
 _Route3CooltrainerF2EndBattleText::
-	text "Be nice!"
+	text_start
+	line "¡Sé amable!"
 	prompt
 
 _Route3CooltrainerF2AfterBattleText::
-	text "Avoid fights by"
-	line "not letting"
-	cont "people see you!"
+	text "¡Evita las peleas"
+	line "ocultándote de"
+	cont "la gente!"
 	done
 
 _Route3Youngster4BattleText::
-	text "Hey! You're not"
-	line "wearing shorts!"
+	text "¡Oye! ¡No llevas"
+	line "pantalón corto!"
 	done
 
 _Route3Youngster4EndBattleText::
-	text "Lost!"
-	line "Lost! Lost!"
+	text_start
+	line "¡Perdí! ¡Perdí!"
 	prompt
 
 _Route3Youngster4AfterBattleText::
-	text "I always wear"
-	line "shorts, even in"
-	cont "winter!"
+	text "Llevo pantalones"
+	line "cortos hasta"
+	cont "en invierno."
 	done
 
 _Route3Youngster5BattleText::
-	text "You can fight my"
-	line "new #MON!"
+	text "¡Puedes luchar"
+	line "contra mis nuevos"
+	cont "#MON!"
 	done
 
 _Route3Youngster5EndBattleText::
-	text "Done"
-	line "like dinner!"
+	text "¡Estoy"
+	line "acabado!"
 	prompt
 
 _Route3Youngster5AfterBattleText::
-	text "Trained #MON"
-	line "are stronger than"
-	cont "the wild ones!"
+	text "¡Los #MON"
+	line "entrenados son"
+	cont "más fuertes que"
+	cont "los salvajes!"
 	done
 
 _Route3CooltrainerF3BattleText::
-	text "Eek! Did you"
-	line "touch me?"
+	text "¡Oye! ¿Por qué"
+	line "me has tocado?"
 	done
 
 _Route3CooltrainerF3EndBattleText::
-	text "That's it?"
+	text_start
+	line "¿Eso es todo?"
 	prompt
 
 _Route3CooltrainerF3AfterBattleText::
-	text "ROUTE 4 is at the"
-	line "foot of MT.MOON."
+	text "La RUTA 4 está"
+	line "debajo del"
+	cont "MT. MOON."
 	done
 
 _Route3SignText::
-	text "ROUTE 3"
-	line "MT.MOON AHEAD"
+	text "RUTA 3: HACIA"
+	line "el MT. MOON"
 	done
+

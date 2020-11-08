@@ -1,179 +1,196 @@
 _Route13CooltrainerM1BattleText::
-	text "My bird #MON"
-	line "want to scrap!"
+	text "¡Mis pájaros"
+	line "#MON quieren"
+	cont "pelear!"
 	done
 
 _Route13CooltrainerM1EndBattleText::
-	text "My"
-	line "bird combo lost?"
+	text_start
+	line "¿Perdió mi"
+	cont "combinación"
+	cont "de pájaros?"
 	prompt
 
 _Route13CooltrainerM1AfterBattleText::
-	text "My #MON look"
-	line "happy even though"
-	cont "they lost."
+	text "Mis #MON"
+	line "parecen felices"
+	cont "aunque hayan"
+	cont "perdido."
 	done
 
 _Route13CooltrainerF1BattleText::
-	text "I'm told I'm good"
-	line "for a kid!"
+	text "¡Dicen que soy"
+	line "muy buena para"
+	cont "ser una niña!"
 	done
 
 _Route13CooltrainerF1EndBattleText::
-	text "Ohh!"
-	line "I lost!"
+	text_start
+	line "¡Oh! ¡He perdido!"
 	prompt
 
 _Route13CooltrainerF1AfterBattleText::
-	text "I want to become"
-	line "a good trainer."
-	cont "I'll train hard."
+	text "Quiero ser una"
+	line "gran entrenadora."
+	cont "Trabajaré duro."
 	done
 
 _Route13CooltrainerF2BattleText::
-	text "Wow! Your BADGEs"
-	line "are too cool!"
+	text "¡Qué chulas son"
+	line "tus MEDALLAS!"
 	done
 
 _Route13CooltrainerF2EndBattleText::
-	text "Not"
-	line "enough!"
+	text "¡No"
+	line "fue suficiente!"
 	prompt
 
 _Route13CooltrainerF2AfterBattleText::
-	text "You got those"
-	line "BADGEs from GYM"
-	cont "LEADERs. I know!"
+	text "¡Sé que lograste"
+	line "esas MEDALLAS de"
+	cont "los LÍDERES del"
+	cont "GIMNASIO!"
 	done
 
 _Route13CooltrainerF3BattleText::
-	text "My cute #MON"
-	line "wish to make your"
-	cont "acquaintance."
+	text "Mis simpáticos"
+	line "#MON desean"
+	cont "conocerte."
 	done
 
 _Route13CooltrainerF3EndBattleText::
-	text "Wow!"
-	line "You totally won!"
+	text_start
+	line "¡Uauu! ¡Me has"
+	cont "machacado!"
 	prompt
 
 _Route13CooltrainerF3AfterBattleText::
-	text "You have to make"
-	line "#MON fight to"
-	cont "toughen them up!"
+	text "¡Tienes que hacer"
+	line "luchar a tus"
+	cont "#MON para"
+	cont "fortalecerlos!"
 	done
 
 _Route13CooltrainerF4BattleText::
-	text "I found CARBOS in"
-	line "a cave once."
+	text "¡Una vez encontré"
+	line "CARBURANTE en"
+	cont "una cueva!"
 	done
 
 _Route13CooltrainerF4EndBattleText::
-	text "Just"
-	line "messed up!"
+	text "¡Lo"
+	line "hice fatal!"
 	prompt
 
 _Route13CooltrainerF4AfterBattleText::
-	text "CARBOS boosted"
-	line "the SPEED of my"
-	cont "#MON."
+	text "El CARBURANTE"
+	line "aumentó la"
+	cont "VELOCIDAD de"
+	cont "mis #MON."
 	done
 
 _Route13CooltrainerM2BattleText::
-	text "The wind's blowing"
-	line "my way!"
+	text "¡El viento sopla"
+	line "en mi dirección!"
 	done
 
 _Route13CooltrainerM2EndBattleText::
-	text "The"
-	line "wind turned!"
+	text "¡El"
+	line "viento cambió!"
 	prompt
 
 _Route13CooltrainerM2AfterBattleText::
-	text "I'm beat. I guess"
-	line "I'll FLY home."
+	text "Perdí. Creo que"
+	line "VOLARÉ a casa."
 	done
 
 _Route13Beauty1BattleText::
-	text "Sure, I'll play"
-	line "with you!"
+	text "¡Claro que"
+	line "jugaré contigo!"
 	done
 
 _Route13Beauty1EndBattleText::
-	text "Oh!"
-	line "You little brute!"
+	text "¡Oh!"
+	line "¡Qué bruto eres!"
 	prompt
 
 _Route13Beauty1AfterBattleText::
-	text "I wonder which is"
-	line "stronger, male or"
-	cont "female #MON?"
+	text "¿Cuál es más"
+	line "fuerte, un"
+	cont "#MON femenino"
+	cont "o masculino?"
 	done
 
 _Route13Beauty2BattleText::
-	text "Do you want to"
-	line "#MON with me?"
+	text "¿Quieres jugar"
+	line "conmigo a los"
+	cont "#MON?"
 	done
 
 _Route13Beauty2EndBattleText::
-	text "It's over"
-	line "already?"
+	text_start
+	line "¿Ya se ha"
+	cont "terminado?"
 	prompt
 
 _Route13Beauty2AfterBattleText::
-	text "I don't know"
-	line "anything about"
-	cont "#MON. I just"
-	cont "like cool ones!"
+	text "¡No sé nada sobre"
+	line "los #MON!"
+	cont "¡Me gustan los"
+	cont "más chulos!"
 	done
 
 _Route13BikerBattleText::
-	text "What're you"
-	line "lookin' at?"
+	text "¿Y tú"
+	line "qué miras?"
 	done
 
 _Route13BikerEndBattleText::
-	text "Dang!"
-	line "Stripped gears!"
+	text "¡Vaya!"
+	line "¡Derrapé!"
 	prompt
 
 _Route13BikerAfterBattleText::
-	text "Get lost!"
+	text "¡Olvídame!"
 	done
 
 _Route13CooltrainerM3BattleText::
-	text "I always go with"
-	line "bird #MON!"
+	text "¡Me encantan los"
+	line "pájaros #MON!"
 	done
 
 _Route13CooltrainerM3EndBattleText::
-	text "Out"
-	line "of power!"
+	text "¡Me"
+	line "he quedado"
+	cont "sin energía!"
 	prompt
 
 _Route13CooltrainerM3AfterBattleText::
-	text "I wish I could"
-	line "fly like PIDGEY"
-	cont "and PIDGEOTTO..."
+	text "Ojalá pudiera"
+	line "volar como PIDGEY"
+	cont "y PIDGEOTTO..."
 	done
 
 _Route13TrainerTips1Text::
-	text "TRAINER TIPS"
+	text "PISTAS ENTRENADOR"
 
-	para "Look to the left"
-	line "of that post!"
+	para "¡Mira a la"
+	line "izquierda de"
+	cont "ese poste!"
 	done
 
 _Route13TrainerTips2Text::
-	text "TRAINER TIPS"
+	text "PISTAS ENTRENADOR"
 
-	para "Use SELECT to"
-	line "switch items in"
-	cont "the ITEM window!"
+	para "¡Usa SELECT para"
+	line "cambiar objetos"
+	cont "en la ventana"
+	cont "OBJETOS!"
 	done
 
 _Route13SignText::
-	text "ROUTE 13"
-	line "North to SILENCE"
-	cont "BRIDGE"
+	text "RUTA 13:"
+	line "PUENTE SILENCIO"
+	cont "al norte"
 	done
+

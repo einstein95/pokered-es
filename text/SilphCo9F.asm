@@ -1,62 +1,68 @@
 SilphCo9FNurseYouLookTiredText::
-	text "You look tired!"
-	line "You should take a"
-	cont "quick nap!"
+	text "¡Pareces cansado!"
+	line "¡Deberías echarte"
+	cont "una siestecita!"
 	prompt
 
 SilphCo9FNurseDontGiveUpText::
-	text "Don't give up!"
+	text "¡No te rindas!"
 	done
 
 SilphCo9FNurseThankYouText::
-	text "Thank you so"
-	line "much!"
+	text "¡Muchísimas"
+	line "gracias!"
 	done
 
 _SilphCo9FRocket1BattleText::
-	text "Your #MON seem"
-	line "to adore you, kid!"
+	text "¡Tus #MON"
+	line "parecen adorarte!"
 	done
 
 _SilphCo9FRocket1EndBattleText::
-	text "Ghaaah!"
+	text "¡Buaah!"
 	prompt
 
 _SilphCo9FRocket1AfterBattleText::
-	text "If I had started"
-	line "as a trainer at"
-	cont "your age..."
+	text "Si yo hubiera"
+	line "empezado como"
+	cont "entrenador"
+	cont "a tu edad..."
 	done
 
 _SilphCo9FScientistBattleText::
-	text "Your #MON have"
-	line "weak points! I"
-	cont "can nail them!"
+	text "¡Tus #MON"
+	line "tienen puntos"
+	cont "débiles! ¡Yo"
+	cont "puedo verlos!"
 	done
 
 _SilphCo9FScientistEndBattleText::
-	text "You"
-	line "hammered me!"
+	text_start
+	line "¡Me has"
+	cont "machacado!"
 	prompt
 
 _SilphCo9FScientistAfterBattleText::
-	text "Exploiting weak"
-	line "spots does work!"
-	cont "Think about"
-	cont "element types!"
+	text "¡Aprovechar sus"
+	line "puntos débiles"
+	cont "funciona! ¡Piensa"
+	cont "en los tipos"
+	cont "de elementos!"
 	done
 
 _SilphCo9FRocket2BattleText::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "¡Soy uno de los 4"
+	line "HERMANOS ROCKET!"
 	done
 
 _SilphCo9FRocket2EndBattleText::
-	text "Warg!"
-	line "Brothers, I lost!"
+	text_start
+	line "¡Hermanos!"
+	cont "¡He perdido!"
 	prompt
 
 _SilphCo9FRocket2AfterBattleText::
-	text "My brothers will"
-	line "avenge me!"
+	text "¡Mis hermanos"
+	line "me vengarán!"
 	done
+

@@ -1,90 +1,94 @@
 _Route24CooltrainerM2EndBattleText::
-	text "I"
-	line "thought not!"
+	text_start
+	line "¡Creía que no"
+	cont "me ibas a ganar!"
 	prompt
 
 _Route24CooltrainerM2AfterBattleText::
-	text "I hid because the"
-	line "people on the"
-	cont "bridge scared me!"
+	text "¡Me oculté porque"
+	line "me asustaron"
+	cont "los del puente!"
 	done
 
 _Route24CooltrainerM3BattleText::
-	text "OK! I'm No. 5!"
-	line "I'll stomp you!"
+	text "¡Yo soy el 5º!"
+	line "¡Te aplastaré!"
 	done
 
 _Route24CooltrainerM3EndBattleText::
-	text "Whoa!"
-	line "Too much!"
+	text_start
+	line "¡Uauu! ¡Eso"
+	cont "fue demasiado!"
 	prompt
 
 _Route24CooltrainerM3AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "¡Hice todo lo"
+	line "que pude!"
 	done
 
 _Route24CooltrainerF1BattleText::
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "¡Yo soy la 4a.!"
+	line "¿Estás cansado?"
 	done
 
 _Route24CooltrainerF1EndBattleText::
-	text "I lost"
-	line "too!"
+	text "¡También"
+	line "he perdido!"
 	prompt
 
 _Route24CooltrainerF1AfterBattleText::
-	text "I did my best, so"
-	line "I've no regrets!"
+	text "¡Hice todo lo"
+	line "que pude!"
 	done
 
 _Route24Youngster1BattleText::
-	text "Here's No. 3!"
-	line "I won't be easy!"
+	text "¡Yo soy el 3º!"
+	line "¡Te va a costar!"
 	done
 
 _Route24Youngster1EndBattleText::
-	text "Ow!"
-	line "Stomped flat!"
+	text "¡Oye!"
+	line "¡Me machacaste!"
 	prompt
 
 _Route24Youngster1AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "¡Hice todo lo"
+	line "que pude!"
 	done
 
 _Route24CooltrainerF2BattleText::
-	text "I'm second!"
-	line "Now it's serious!"
+	text "¡Yo soy la 2a.!"
+	line "¡En guardia!"
 	done
 
 _Route24CooltrainerF2EndBattleText::
-	text "How could I"
-	line "lose?"
+	text "¿Cómo he"
+	line "podido perder?"
 	prompt
 
 _Route24CooltrainerF2AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "¡Hice todo"
+	line "lo que pude!"
 	done
 
 _Route24Youngster2BattleText::
-	text "This is NUGGET"
-	line "BRIDGE! Beat us 5"
-	cont "trainers and win"
-	cont "a fabulous prize!"
+	text "¡Éste es el"
+	line "PUENTE PEPITA!"
+	cont "¡Derrótanos a"
+	cont "los 5 y gana un"
+	cont "fabuloso premio!"
 
-	para "Think you got"
-	line "what it takes?"
+	para "¿Crees que puedes"
+	line "hacerlo?"
 	done
 
 _Route24Youngster2EndBattleText::
-	text "Whoo!"
-	line "Good stuff!"
+	text "¡Uau!"
+	line "¡Bien jugado!"
 	prompt
 
 _Route24Youngster2AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "¡Hice todo lo"
+	line "que pude!"
 	done
+

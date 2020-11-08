@@ -1,137 +1,146 @@
 _Route21Fisher1BattleText::
-	text "You want to know"
-	line "if the fish are"
-	cont "biting?"
+	text "¿Quieres saber si"
+	line "los peces pican?"
 	done
 
 _Route21Fisher1EndBattleText::
-	text "Dang!"
+	text "¡Dang!"
 	prompt
 
 _Route21Fisher1AfterBattleText::
-	text "I can't catch"
-	line "anything good!"
+	text "¡No puedo pescar"
+	line "nada bueno!"
 	done
 
 _Route21Fisher2BattleText::
-	text "I got a big haul!"
-	line "Wanna go for it?"
+	text "¡Tengo una gran"
+	line "red! ¿Quieres"
+	cont "probarla?"
 	done
 
 _Route21Fisher2EndBattleText::
-	text "Darn"
-	line "MAGIKARP!"
+	text_start
+	line "¡Maldición!"
+	cont "¡MAGIKARP!"
 	prompt
 
 _Route21Fisher2AfterBattleText::
-	text "I seem to only"
-	line "catch MAGIKARP!"
+	text "¡Parece que sólo"
+	line "pesco MAGIKARP!"
 	done
 
 _Route21Swimmer1BattleText::
-	text "The sea cleanses"
-	line "my body and soul!"
+	text "¡El mar limpia mi"
+	line "cuerpo y mi alma!"
 	done
 
 _Route21Swimmer1EndBattleText::
-	text "Ayah!"
+	text "¡Aaayyy!"
 	prompt
 
 _Route21Swimmer1AfterBattleText::
-	text "I like the"
-	line "mountains too!"
+	text "¡A mí también me"
+	line "gusta la montaña!"
 	done
 
 _Route21Swimmer2BattleText::
-	text "What's wrong with"
-	line "me swimming?"
+	text "¿Acaso no puedo"
+	line "nadar?"
 	done
 
 _Route21Swimmer2EndBattleText::
-	text "Cheap"
-	line "shot!"
+	text "¡Un pez"
+	line "pequeño!"
 	prompt
 
 _Route21Swimmer2AfterBattleText::
-	text "I look like what?"
-	line "A studded inner"
-	cont "tube? Get lost!"
+	text "¿Que parezco qué?"
+	line "¿Un tubo de"
+	cont "submarinista?"
+	cont "¡Olvídame!"
 	done
 
 _Route21Swimmer3BattleText::
-	text "I caught all my"
-	line "#MON at sea!"
+	text "¡Pesqué a todos"
+	line "mis #MON"
+	cont "en el mar!"
 	done
 
 _Route21Swimmer3EndBattleText::
-	text "Diver!!"
-	line "Down!!"
+	text "¡¡Buzo!!"
+	line "¡Fuera de juego!"
 	prompt
 
 _Route21Swimmer3AfterBattleText::
-	text "Where'd you catch"
-	line "your #MON?"
+	text "¿Dónde atrapaste"
+	line "a tus #MON?"
 	done
 
 _Route21Swimmer4BattleText::
-	text "Right now, I'm in"
-	line "a triathlon meet!"
+	text "¡Ahora estoy en"
+	line "un encuentro de"
+	cont "triatlón!"
 	done
 
 _Route21Swimmer4EndBattleText::
-	text "Pant..."
-	line "pant...pant..."
+	text_start
+	line "(Suspiro)..."
+	cont "(Suspiro)..."
 	prompt
 
 _Route21Swimmer4AfterBattleText::
-	text "I'm beat!"
-	line "But, I still have"
-	cont "the bike race and"
-	cont "marathon left!"
+	text "¡Me ganaste!"
+	line "¡Pero aún falta"
+	cont "el ciclismo y"
+	cont "la maratón!"
 	done
 
 _Route21Swimmer5BattleText::
-	text "Ahh! Feel the sun"
-	line "and the wind!"
+	text "¡Ah! ¡Siente el"
+	line "sol y el viento!"
 	done
 
 _Route21Swimmer5EndBattleText::
-	text "Yow!"
-	line "I lost!"
+	text "¡Auuu!"
+	line "¡He perdido!"
 	prompt
 
 _Route21Swimmer5AfterBattleText::
-	text "I'm sunburnt to a"
-	line "crisp!"
+	text "¡Estoy totalmente"
+	line "quemado!"
 	done
 
 _Route21Fisher3BattleText::
-	text "Hey, don't scare"
-	line "away the fish!"
+	text "¡Eh! ¡No asustes"
+	line "a los peces!"
 	done
 
 _Route21Fisher3EndBattleText::
-	text "Sorry!"
-	line "I didn't mean it!"
+	text_start
+	line "¡Perdona! ¡No"
+	cont "lo hice adrede!"
 	prompt
 
 _Route21Fisher3AfterBattleText::
-	text "I was just angry"
-	line "that I couldn't"
-	cont "catch anything."
+	text "¡Estaba enfadado"
+	line "porque no he"
+	cont "pescado nada!"
 	done
 
 _Route21Fisher4BattleText::
-	text "Keep me company"
-	line "'til I get a hit!"
+	text "¡Quédate conmigo"
+	line "hasta que lo"
+	cont "consiga!"
 	done
 
 _Route21Fisher4EndBattleText::
-	text "That"
-	line "burned some time."
+	text_start
+	line "Así matamos"
+	cont "el tiempo."
 	prompt
 
 _Route21Fisher4AfterBattleText::
-	text "Oh wait! I got a"
-	line "bite! Yeah!"
+	text "¡Alto! ¡Algo ha"
+	line "picado! ¡Sí!"
 	done
+

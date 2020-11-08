@@ -101,9 +101,9 @@ GetMachineName::
 	ret
 
 TechnicalPrefix::
-	db "TM"
+	db "MT"
 HiddenPrefix::
-	db "HM"
+	db "MO"
 
 ; sets carry if item is HM, clears carry if item is not HM
 ; Input: a = item ID

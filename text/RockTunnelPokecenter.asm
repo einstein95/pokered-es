@@ -1,13 +1,13 @@
 _RockTunnelPokecenterGentlemanText::
-	text "The element types"
-	line "of #MON make"
-	cont "them stronger"
-	cont "than some types"
-	cont "and weaker than"
-	cont "others!"
+	text "¡Los #MON"
+	line "de ciertos"
+	cont "elementos son más"
+	cont "o menos fuertes"
+	cont "que otros!"
 	done
 
 _RockTunnelPokecenterFisherText::
-	text "I sold a useless"
-	line "NUGGET for ¥5000!"
+	text "¡Vendí una inútil"
+	line "PEPITA por 5000¥!"
 	done
+

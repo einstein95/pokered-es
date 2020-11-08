@@ -1,40 +1,43 @@
 _Route11Gate2FOaksAideItemfinderDescriptionText::
-	text "There are items on"
-	line "the ground that"
-	cont "can't be seen."
+	text "En el suelo hay"
+	line "objetos que no se"
+	cont "pueden ver."
 
-	para "ITEMFINDER will"
-	line "detect an item"
-	cont "close to you."
+	para "El BUSCAOBJETOS"
+	line "detectará todo"
+	cont "objeto cercano."
 
-	para "It can't pinpoint"
-	line "it, so you have"
-	cont "to look yourself!"
+	para "¡Pero no puede"
+	line "señalarlo, así"
+	cont "que tú tendrás"
+	cont "que encontrarlo!"
 	done
 
 _Route11Gate2FLeftBinocularsSnorlaxText::
-	text "Looked into the"
-	line "binoculars."
+	text "Miraste por los"
+	line "prismáticos."
 
-	para "A big #MON is"
-	line "asleep on a road!"
+	para "¡Un gran #MON"
+	line "está durmiendo"
+	cont "en el camino!"
 	done
 
 _Route11Gate2FLeftBinocularsNoSnorlaxText::
-	text "Looked into the"
-	line "binoculars."
+	text "Miraste por los"
+	line "prismáticos."
 
-	para "It's a beautiful"
-	line "view!"
+	para "¡Es una hermosa"
+	line "vista!"
 	done
 
 _Route11Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Miraste por los"
+	line "prismáticos."
 
-	para "The only way to"
-	line "get from CERULEAN"
-	cont "CITY to LAVENDER"
-	cont "is by way of the"
-	cont "ROCK TUNNEL."
+	para "¡Puedes ir de"
+	line "la CIUDAD CELESTE"
+	cont "al PUEBLO"
+	cont "LAVANDA por el"
+	cont "TÚNEL ROCA!"
 	done
+

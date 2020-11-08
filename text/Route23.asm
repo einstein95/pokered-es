@@ -1,28 +1,30 @@
 _Route23YouDontHaveTheBadgeYetText::
-	text "You can pass here"
-	line "only if you have"
-	cont "the @"
+	text "¡Sólo podrás"
+	line "entrar aquí si"
+	cont "tienes la"
+	cont "@"
 	text_ram wNameBuffer
 	text "!"
 
-	para "You don't have the"
+	para "¡Aún no tienes la"
 	line "@"
 	text_ram wNameBuffer
-	text " yet!"
+	text "!"
 
-	para "You have to have"
-	line "it to get to"
-	cont "#MON LEAGUE!@"
+	para "¡Debes tenerla"
+	line "para acceder a la"
+	cont "LIGA #MON!@"
 	text_end
 
 _Route23OhThatIsTheBadgeText::
-	text "You can pass here"
-	line "only if you have"
-	cont "the @"
+	text "¡Sólo podrás"
+	line "entrar aquí si"
+	cont "tienes la"
+	cont "@"
 	text_ram wNameBuffer
 	text "!"
 
-	para "Oh! That is the"
+	para "¡Oh! ¡Ésa es la"
 	line "@"
 	text_ram wNameBuffer
 	text "!@"
@@ -31,11 +33,11 @@ _Route23OhThatIsTheBadgeText::
 _Route23GoRightAheadText::
 	text_start
 
-	para "OK then! Please,"
-	line "go right ahead!"
+	para "¡Muy bien!"
+	line "¡Puedes pasar!"
 	done
 
 _Route23VictoryRoadGateSignText::
-	text "VICTORY ROAD GATE"
-	line "- #MON LEAGUE"
+	text "PUERTA VICTORIA"
+	line "- LIGA #MON"
 	done

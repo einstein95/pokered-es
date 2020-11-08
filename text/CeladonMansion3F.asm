@@ -1,67 +1,69 @@
 _CeladonMansion3FProgrammerText::
-	text "Me? I'm the"
-	line "programmer!"
+	text "¿Yo? ¡Soy el"
+	line "programador!"
 	done
 
 _CeladonMansion3FGraphicArtistText::
-	text "I'm the graphic"
-	line "artist!"
-	cont "I drew you!"
+	text "¡Soy el diseñador"
+	line "gráfico!"
+	cont "¡Yo te dibujé!"
 	done
 
 _CeladonMansion3FWriterText::
-	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
+	text "¡Yo escribí la"
+	line "historia! ¿A que"
+	cont "es guapa ERIKA?"
 
-	para "I like MISTY a"
-	line "lot too!"
+	para "¡También me gusta"
+	line "mucho MISTY!"
 
-	para "Oh, and SABRINA,"
-	line "I like her!"
+	para "¡Y también me"
+	line "gusta SABRINA!"
 	done
 
 _CeladonMansion3FGameDesignerText::
-	text "Is that right?"
+	text "¿Es eso cierto?"
 
-	para "I'm the game"
-	line "designer!"
+	para "¡Soy el diseñador"
+	line "del juego!"
 
-	para "Filling up your"
-	line "#DEX is tough,"
-	cont "but don't quit!"
+	para "¡Completar tu"
+	line "#DEX es"
+	cont "difícil, pero no"
+	cont "te rindas!"
 
-	para "When you finish,"
-	line "come tell me!"
+	para "¡Cuando termines"
+	line "ven a decírmelo!"
 	done
 
 _CeladonMansion3FGameDesignerCompletedDexText::
-	text "Wow! Excellent!"
-	line "You completed"
-	cont "your #DEX!"
-	cont "Congratulations!"
+	text "¡Uauu! ¡Genial!"
+	line "¡Completaste"
+	cont "tu #DEX!"
+	cont "¡Enhorabuena!"
 	cont "...@"
 	text_end
 
 _CeladonMansion3FGameProgramPCText::
-	text "It's the game"
-	line "program! Messing"
-	cont "with it could bug"
-	cont "out the game!"
+	text "¡Es el programa"
+	line "del juego! ¡No lo"
+	cont "toques o podrías"
+	cont "estropearlo!"
 	done
 
 _CeladonMansion3FPlayingGamePCText::
-	text "Someone's playing"
-	line "a game instead of"
-	cont "working!"
+	text "¡Alguien está"
+	line "jugando en lugar"
+	cont "de trabajar!"
 	done
 
 _CeladonMansion3FGameScriptPCText::
-	text "It's the script!"
-	line "Better not look"
-	cont "at the ending!"
+	text "¡Es el script del"
+	line "juego! ¡Mejor no"
+	cont "mirar el final!"
 	done
 
 _CeladonMansion3FDevRoomSignText::
 	text "GAME FREAK"
-	line "Development Room"
+	line "Sala Desarrollo"
 	done

@@ -1,5 +1,6 @@
 _UndergroundPathRoute6GirlText::
-	text "People often lose"
-	line "things in that"
-	cont "UNDERGROUND PATH."
+	text "La gente suele"
+	line "perder cosas en"
+	cont "este SUBTERRÁNEO."
 	done
+

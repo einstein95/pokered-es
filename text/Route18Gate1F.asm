@@ -1,14 +1,16 @@
 _Route18Gate1FGuardYouNeedABicycleText::
-	text "You need a BICYCLE"
-	line "for CYCLING ROAD!"
+	text "¡Necesitas una"
+	line "BICI para ir por"
+	cont "el CAMINO-BICIS!"
 	done
 
 _Route18Gate1FGuardCyclingRoadUphillText::
-	text "CYCLING ROAD is"
-	line "all uphill from"
-	cont "here."
+	text "Desde aquí todo"
+	line "el CAMINO-BICIS"
+	cont "va cuesta arriba."
 	done
 
 _Route18Gate1FGuardExcuseMeText::
-	text "Excuse me!"
+	text "¡Perdona!"
 	done
+

@@ -1,5 +1,7 @@
 _UndergroundPathRoute8GirlText::
-	text "The dept. store"
-	line "in CELADON has a"
-	cont "great selection!"
+	text "¡El centro"
+	line "comercial de"
+	cont "AZULONA tiene"
+	cont "muchas cosas!"
 	done
+

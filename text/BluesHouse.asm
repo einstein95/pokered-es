@@ -1,42 +1,44 @@
 _BluesHouseDaisyRivalAtLabText::
-	text "Hi <PLAYER>!"
-	line "<RIVAL> is out at"
-	cont "Grandpa's lab."
+	text "¡Hola <PLAYER>!"
+	line "¡<RIVAL> está"
+	cont "en el laboratorio"
+	cont "del abuelo!"
 	done
 
 _BluesHouseDaisyOfferMapText::
-	text "Grandpa asked you"
-	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	text "¿Te encargó algo"
+	line "el abuelo?"
+	cont "¡Toma esto!"
+	cont "¡Te ayudará!"
 	prompt
 
 _GotMapText::
-	text "<PLAYER> got a"
+	text "¡<PLAYER> obtuvo:"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _BluesHouseDaisyBagFullText::
-	text "You have too much"
-	line "stuff with you."
+	text "Llevas demasiadas"
+	line "cosas."
 	done
 
 _BluesHouseDaisyUseMapText::
-	text "Use the TOWN MAP"
-	line "to find out where"
-	cont "you are."
+	text "Usa el MAPA de"
+	line "PUEBLOS para"
+	cont "saber dónde"
+	cont "te encuentras."
 	done
 
 _BluesHouseDaisyWalkingText::
-	text "#MON are living"
-	line "things! If they"
-	cont "get tired, give"
-	cont "them a rest!"
+	text "¡Los #MON"
+	line "son seres vivos!"
+	cont "¡Si se cansan,"
+	cont "déjalos reposar!"
 	done
 
 _BluesHouseTownMapText::
-	text "It's a big map!"
-	line "This is useful!"
+	text "¡Es un gran mapa!"
+	line "¡Es muy útil!"
 	done

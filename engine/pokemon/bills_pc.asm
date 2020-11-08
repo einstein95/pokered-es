@@ -39,11 +39,11 @@ DisplayPCMainMenu::
 .next2
 	call PlaceString
 	hlcoord 2, 4
-	ld de, wPlayerName
+	ld de, PlayersPCText
 	call PlaceString
 	ld l, c
 	ld h, b
-	ld de, PlayersPCText
+	ld de, wPlayerName
 	call PlaceString
 	CheckEvent EVENT_GOT_POKEDEX
 	jr z, .noOaksPC2
@@ -85,12 +85,12 @@ DisplayPCMainMenu::
 	ldh [hAutoBGTransferEnabled], a
 	ret
 
-SomeonesPCText:   db "SOMEONE's PC@"
-BillsPCText:      db "BILL's PC@"
-PlayersPCText:    db "'s PC@"
-OaksPCText:       db "PROF.OAK's PC@"
-PKMNLeaguePCText: db "<PKMN>LEAGUE@"
-LogOffPCText:     db "LOG OFF@"
+SomeonesPCText:   db "PC DE ALGUIEN@"
+BillsPCText:      db "PC DE BILL@"
+PlayersPCText:    db "PC DE @"
+OaksPCText:       db "PC PROF. OAK@"
+PKMNLeaguePCText: db "LIGA <PKMN>@"
+LogOffPCText:     db "DESCONEXIÓN@"
 
 BillsPC_::
 	ld hl, wStatusFlags5
@@ -339,15 +339,15 @@ DisplayMonListMenu:
 	ret
 
 BillsPCMenuText:
-	db   "WITHDRAW <PKMN>"
-	next "DEPOSIT <PKMN>"
-	next "RELEASE <PKMN>"
-	next "CHANGE BOX"
-	next "SEE YA!"
+	db   "SACAR <PKMN>"
+	next "DEJAR <PKMN>"
+	next "SOLTAR <PKMN>"
+	next "CAMBIA CAJA"
+	next "¡NOS VEMOS!"
 	db "@"
 
 BoxNoPCText:
-	db "BOX No.@"
+	db "CAJA Nº@"
 
 KnowsHMMove::
 ; returns whether mon with party index [wWhichPokemon] knows an HM move
@@ -446,11 +446,11 @@ DisplayDepositWithdrawMenu:
 	call LoadGBPal
 	jr .loop
 
-DepositPCText:  db "DEPOSIT@"
-WithdrawPCText: db "WITHDRAW@"
+DepositPCText:  db "DEJAR@"
+WithdrawPCText: db "SACAR@"
 StatsCancelPCText:
-	db   "STATS"
-	next "CANCEL@"
+	db   "ESTAD."
+	next "SALIR@"
 
 SwitchOnText:
 	text_far _SwitchOnText

@@ -1,56 +1,61 @@
 _PalletTownOakHeyWaitDontGoOutText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@"
+	text "OAK: ¡Eh! ¡Alto!"
+	line "¡No te vayas!@"
 	text_end
 
 _PalletTownOakItsUnsafeText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "OAK: ¡Cuidado!"
+	line "¡En la hierba"
+	cont "viven #MON"
+	cont "salvajes!"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "¡Necesitas a tu"
+	line "propio #MON"
+	cont "como protección!"
+	cont "¡Yo lo sé!"
 
-	para "Here, come with"
-	line "me!"
+	para "¡Ven conmigo!"
 	done
 
 _PalletTownGirlText::
-	text "I'm raising"
-	line "#MON too!"
+	text "¡Yo también"
+	line "entreno a mis"
+	cont "#MON!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "¡Cuando se hagan"
+	line "fuertes me"
+	cont "protegerán!"
 	done
 
 _PalletTownFisherText::
-	text "Technology is"
-	line "incredible!"
+	text "¡La tecnología"
+	line "es increíble!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "¡Ahora puedes"
+	line "guardar y sacar"
+	cont "objetos y #MON"
+	cont "como datos,"
+	cont "vía PC!"
 	done
 
 _PalletTownOaksLabSignText::
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "LABORATORIO DE"
+	line "INVESTIGACIÓN de"
+	cont "#MON del"
+	cont "PROFESOR OAK"
 	done
 
 _PalletTownSignText::
-	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	text "PUEBLO PALETA"
+	line "¡Un lienzo en"
+	cont "blanco de tu"
+	cont "viaje!"
 	done
 
 _PalletTownPlayersHouseSignText::
-	text "<PLAYER>'s house "
+	text "Casa de <PLAYER>"
 	done
 
 _PalletTownRivalsHouseSignText::
-	text "<RIVAL>'s house "
+	text "Casa de <RIVAL>"
 	done

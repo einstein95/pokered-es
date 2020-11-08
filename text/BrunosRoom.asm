@@ -1,37 +1,40 @@
 _BrunoBeforeBattleText::
-	text "I am BRUNO of"
-	line "the ELITE FOUR!"
+	text "¡Yo soy BRUNO"
+	line "del ALTO MANDO!"
 
-	para "Through rigorous"
-	line "training, people"
-	cont "and #MON can"
-	cont "become stronger!"
+	para "¡Con un riguroso"
+	line "entrenamiento,"
+	cont "la gente y los"
+	cont "#MON pueden"
+	cont "fortalecerse!"
 
-	para "I've weight"
-	line "trained with"
-	cont "my #MON!"
+	para "¡Yo he entrenado"
+	line "a mis #MON"
+	cont "con pesas!"
 
-	para "<PLAYER>!"
+	para "¡<PLAYER>!"
 
-	para "We will grind you"
-	line "down with our"
-	cont "superior power!"
+	para "¡Os machacaremos"
+	line "con nuestra"
+	cont "gran fuerza!"
 
-	para "Hoo hah!"
+	para "¡Ja ja ja!"
 	done
 
 _BrunoEndBattleText::
-	text "Why?"
-	line "How could I lose?"
+	text "¿Qué?"
+	line "¿Cómo he"
+	cont "podido perder?"
 	prompt
 
 _BrunoAfterBattleText::
-	text "My job is done!"
-	line "Go face your next"
-	cont "challenge!"
+	text "¡Yo ya he hecho"
+	line "mi trabajo! ¡Te"
+	cont "está esperando tu"
+	cont "próximo desafío!"
 	done
 
 _BrunosRoomBrunoDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Voz de alguien:"
+	line "¡No huyas!"
 	done

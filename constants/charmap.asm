@@ -75,8 +75,9 @@
 ; Actual characters (from other graphics files)
 
 	; needed for ShowPokedexDataInternal (see engine/menus/pokedex.asm)
-	charmap "′",         $60 ; gfx/pokedex/pokedex.png
-	charmap "″",         $61 ; gfx/pokedex/pokedex.png
+	charmap "<m>",         $60 ; gfx/pokedex/pokedex.png
+	charmap "<k>",         $61 ; gfx/pokedex/pokedex.png
+	charmap "<g>",         $62 ; gfx/pokedex/pokedex.png
 
 	; needed for StatusScreen (see engine/pokemon/status_screen.asm)
 	charmap "<BOLD_P>",  $72 ; gfx/font/P.1bpp
@@ -150,21 +151,51 @@
 	charmap "y",         $b8
 	charmap "z",         $b9
 
-	charmap "é",         $ba
-	charmap "'d",        $bb
-	charmap "'l",        $bc
-	charmap "'s",        $bd
-	charmap "'t",        $be
-	charmap "'v",        $bf
+	charmap "à",         $ba
+	charmap "è",         $bb
+	charmap "é",         $bc
+	charmap "ù",         $bd
+	charmap "À",         $be
+	charmap "Á",         $bf
+	charmap "Ä",         $c0
+	charmap "Ö",         $c1
+	charmap "Ü",         $c2
+	charmap "ä",         $c3
+	charmap "ö",         $c4
+	charmap "ü",         $c5
+	charmap "È",         $c6
+	charmap "É",         $c7
+	charmap "Ì",         $c8
+	charmap "Í",         $c9
+	charmap "Ñ",         $ca
+	charmap "Ò",         $cb
+	charmap "Ó",         $cc
+	charmap "Ù",         $cd
+	charmap "Ú",         $ce
+	charmap "á",         $cf
+	charmap "ì",         $d0
+	charmap "í",         $d1
+	charmap "ñ",         $d2
+	charmap "ò",         $d3
+	charmap "ó",         $d4
+	charmap "ú",         $d5
+	charmap "º",         $d6
+	charmap "&",         $d7
+
+	charmap "'d",        $d8
+	charmap "'l",        $d9
+	charmap "'m",        $da
+	charmap "'r",        $db
+	charmap "'s",        $dc
+	charmap "'t",        $dd
+	charmap "'v",        $de
 
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
-
-	charmap "'r",        $e4
-	charmap "'m",        $e5
-
+	charmap "¿",         $e4
+	charmap "¡",         $e5
 	charmap "?",         $e6
 	charmap "!",         $e7
 	charmap ".",         $e8

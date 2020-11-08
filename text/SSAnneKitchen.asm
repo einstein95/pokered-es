@@ -1,69 +1,81 @@
 _SSAnneKitchenCook1Text::
-	text "You, mon petit!"
-	line "We're busy here!"
-	cont "Out of the way!"
+	text "¡Hola, pequeñajo!"
+	line "¡Ahora estamos"
+
+	para "ocupados!"
+	line "¡Fuera de aquí!"
 	done
 
 _SSAnneKitchenCook2Text::
-	text "I saw an odd ball"
-	line "in the trash."
+	text "Vi una bola muy"
+	line "rara en la"
+	cont "basura."
 	done
 
 _SSAnneKitchenCook3Text::
-	text "I'm so busy I'm"
-	line "getting dizzy!"
+	text "¡Estoy tan"
+	line "ocupado que me"
+	cont "estoy mareando!"
 	done
 
 _SSAnneKitchenCook4Text::
-	text "Hum-de-hum-de-"
-	line "ho..."
+	text "¿Por qué?"
+	line "¿Por qué yo?"
 
-	para "I peel spuds"
-	line "every day!"
-	cont "Hum-hum..."
+	para "¡Me paso todo"
+	line "el día pelando"
+	cont "patatas!"
 	done
 
 _SSAnneKitchenCook5Text::
-	text "Did you hear about"
-	line "SNORLAX?"
+	text "¿Has oído hablar"
+	line "de SNORLAX?"
 
-	para "All it does is"
-	line "eat and sleep!"
+	para "¡Se pasa todo el"
+	line "día comiendo y"
+	cont "durmiendo!"
 	done
 
 _SSAnneKitchenCook6Text::
-	text "Snivel...Sniff..."
+	text "Sniff...sniff..."
 
-	para "I only get to"
-	line "peel onions..."
-	cont "Snivel..."
+	para "Yo sólo pelo"
+	line "cebollas..."
+	cont "Sniff..."
 	done
 
 _SSAnneKitchenCook7MainCourseIsText::
-	text "Er-hem! Indeed I"
-	line "am le CHEF!"
+	text "¡Ejem! ¡Por algo"
+	line "soy el CHEF!"
 
-	para "Le main course is"
+	para "El menú es:"
 	prompt
 
 SSAnneKitchenCook7SalmonDuSaladText::
-	text "Salmon du Salad!"
+	text "¡Ensalada de"
+	line "salmón!"
 
-	para "Les guests may"
-	line "gripe it's fish"
-	cont "again, however!"
+	para "¡Pero puede que"
+	line "los clientes se"
+	cont "quejen de tanto"
+	cont "repetir pescado!"
 	done
 
 SSAnneKitchenCook7EelsAuBarbecueText::
-	text "Eels au Barbecue!"
+	text "¡Anguilas a la"
+	line "barbacoa!"
 
-	para "Les guests will"
-	line "mutiny, I fear."
+	para "¡Me temo que los"
+	line "clientes se van"
+	cont "a amotinar!"
 	done
 
 SSAnneKitchenCook7PrimeBeefSteakText::
-	text "Prime Beef Steak!"
+	text "¡Filetes de vaca!"
 
-	para "But, have I enough"
-	line "fillets du beef?"
+	para "Pero, ¡¿tengo"
+	line "bastantes"
+	cont "filetes para"
+	cont "todos?!"
 	done
+
