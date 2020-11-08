@@ -1,146 +1,158 @@
 _ChampionsRoomRivalIntroText::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL>: ¡Hola!"
 
-	para "I was looking"
-	line "forward to seeing"
-	cont "you, <PLAYER>!"
+	para "¡Estaba deseando"
+	line "verte <PLAYER>!"
 
-	para "My rival should"
-	line "be strong to keep"
-	cont "me sharp!"
+	para "¡Mi rival debería"
+	line "ser fuerte para"
+	cont "poder mantenerme"
+	cont "en forma!"
 
-	para "While working on"
-	line "#DEX, I looked"
-	cont "all over for"
-	cont "powerful #MON!"
+	para "¡Utilizando mi"
+	line "#DEX, he"
+	cont "buscado los"
+	cont "#MON más"
+	cont "fuertes!"
 
-	para "Not only that, I"
-	line "assembled teams"
-	cont "that would beat"
-	cont "any #MON type!"
+	para "¡Y he creado"
+	line "varios equipos"
+	cont "que derrotarían"
+	cont "a cualquier tipo"
+	cont "de #MON!"
 
-	para "And now!"
+	para "¡Y ahora!"
 
-	para "I'm the #MON"
-	line "LEAGUE champion!"
+	para "¡Yo soy el"
+	line "campeón de la"
+	cont "LIGA #MON!"
 
-	para "<PLAYER>! Do you"
-	line "know what that"
-	cont "means?"
+	para "¡<PLAYER>!"
+	line "¿Sabes lo que"
+	cont "significa eso?"
 
-	para "I'll tell you!"
+	para "¡Te lo diré!"
 
-	para "I am the most"
-	line "powerful trainer"
-	cont "in the world!"
+	para "¡Yo soy el mejor"
+	line "entrenador"
+	cont "del mundo!"
 	done
 
 _RivalDefeatedText::
-	text "NO!"
-	line "That can't be!"
-	cont "You beat my best!"
+	text "¡NO!"
+	line "¡Eso es"
+	cont "imposible! ¡Me"
+	cont "has derrotado!"
 
-	para "After all that"
-	line "work to become"
-	cont "LEAGUE champ?"
+	para "¡Tras tantos"
+	line "esfuerzos por"
+	cont "convertirme en"
+	cont "campeón de LIGA!"
 
-	para "My reign is over"
-	line "already?"
-	cont "It's not fair!"
+	para "¿Se ha terminado"
+	line "ya mi reinado?"
+	cont "¡No es justo!"
 	prompt
 
 _RivalVictoryText::
-	text "Hahaha!"
-	line "I won, I won!"
+	text "¡Jajaja!"
+	line "¡Gané, gané!"
 
-	para "I'm too good for"
-	line "you, <PLAYER>!"
+	para "¡<PLAYER>, soy"
+	line "demasiado bueno"
+	cont "para ti!"
 
-	para "You did well to"
-	line "even reach me,"
-	cont "<RIVAL>, the"
-	cont "#MON genius!"
+	para "¡Lograste llegar"
+	line "a mi, <RIVAL>,"
+	cont "el genio de"
+	cont "los #MON!"
 
-	para "Nice try, loser!"
-	line "Hahaha!"
+	para "¡Bien hecho,"
+	line "perdedor!"
+	cont "¡Ja ja ja!"
 	prompt
 
 _ChampionsRoomRivalAfterBattleText::
-	text "Why?"
-	line "Why did I lose?"
+	text "¿Qué? ¿Cómo"
+	line "he podido perder?"
 
-	para "I never made any"
-	line "mistakes raising"
-	cont "my #MON..."
+	para "He entrenado a"
+	line "mis #MON a"
+	cont "la perfección."
 
-	para "Darn it! You're"
-	line "the new #MON"
-	cont "LEAGUE champion!"
+	para "¡Maldición! ¡Eres"
+	line "el nuevo campeón"
+	cont "de la LIGA"
+	cont "#MON!"
 
-	para "Although I don't"
-	line "like to admit it."
+	para "Aunque no me"
+	line "guste admitirlo."
 	done
 
 _ChampionsRoomOakText::
-	text "OAK: <PLAYER>!"
+	text "OAK: ¡<PLAYER>!"
 	done
 
 _ChampionsRoomOakCongratulatesPlayerText::
-	text "OAK: So, you won!"
-	line "Congratulations!"
-	cont "You're the new"
-	cont "#MON LEAGUE"
-	cont "champion!"
+	text "OAK: ¡Ganaste!"
+	line "¡Enhorabuena!"
+	cont "¡Eres el nuevo"
+	cont "campeón de la"
+	cont "LIGA #MON!"
 
-	para "You've grown up so"
-	line "much since you"
-	cont "first left with"
+	para "¡Has crecido"
+	line "tanto desde que"
+	cont "te fuiste con"
 	cont "@"
 	text_ram wNameBuffer
 	text "!"
 
-	para "<PLAYER>, you have"
-	line "come of age!"
+	para "¡<PLAYER>, ya"
+	line "eres mayor!"
 	done
 
 _ChampionsRoomOakDisappointedWithRivalText::
-	text "OAK: <RIVAL>! I'm"
-	line "disappointed!"
+	text "OAK: ¡<RIVAL>!"
+	line "¡Estoy desolado!"
 
-	para "I came when I"
-	line "heard you beat"
-	cont "the ELITE FOUR!"
+	para "¡Vine en cuanto"
+	line "supe que habías"
+	cont "derrotado al ALTO"
+	cont "MANDO!"
 
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
+	para "¡Pero cuando"
+	line "llegué aquí,"
+	cont "ya habías sido"
+	cont "derrotado!"
 
-	para "<RIVAL>! Do you"
-	line "understand why"
-	cont "you lost?"
+	para "¡<RIVAL>!"
+	line "¿Entiendes por"
+	cont "qué has perdido?"
 
-	para "You have forgotten"
-	line "to treat your"
-	cont "#MON with"
-	cont "trust and love!"
+	para "¡Olvidaste tratar"
+	line "a tus #MON"
+	cont "con cariño y"
+	cont "confianza!"
 
-	para "Without them, you"
-	line "will never become"
-	cont "a champ again!"
+	para "¡Y sin ellos,"
+	line "jamás volverás a"
+	cont "ser un campeón!"
 	done
 
 _ChampionsRoomOakComeWithMeText::
-	text "OAK: <PLAYER>!"
+	text "OAK: ¡<PLAYER>!"
 
-	para "You understand"
-	line "that your victory"
-	cont "was not just your"
-	cont "own doing!"
+	para "¡Sabes que tu"
+	line "victoria no fue"
+	cont "debida sólo a"
+	cont "ti!"
 
-	para "The bond you share"
-	line "with your #MON"
-	cont "is marvelous!"
+	para "¡El vínculo que"
+	line "mantienes con tus"
+	cont "#MON es"
+	cont "maravilloso!"
 
-	para "<PLAYER>!"
-	line "Come with me!"
+	para "¡<PLAYER>!"
+	line "¡Ven conmigo!"
 	done
+

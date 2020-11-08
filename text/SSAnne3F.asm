@@ -1,7 +1,11 @@
 _SSAnne3FSailorText::
-	text "Our CAPTAIN is a"
-	line "sword master!"
+	text "¡Nuestro CAPITÁN"
+	line "es un maestro de"
+	cont "la esgrima!"
 
-	para "He even teaches"
-	line "CUT to #MON!"
+	para "¡Y hasta enseña"
+	line "a los #MON"
+	cont "la técnica del"
+	cont "CORTE!"
 	done
+

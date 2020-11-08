@@ -1,26 +1,28 @@
 _MrPsychicsHouseMrPsychicYouWantedThisText::
-	text "...Wait! Don't"
-	line "say a word!"
+	text "...¡Alto! ¡No"
+	line "digas nada!"
 
-	para "You wanted this!"
+	para "¡Querías esto!"
 	prompt
 
 _MrPsychicsHouseMrPsychicReceivedTM29Text::
-	text "<PLAYER> received"
+	text "¡<PLAYER> recibió"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _MrPsychicsHouseMrPsychicTM29ExplanationText::
-	text "TM29 is PSYCHIC!"
+	text "MT29 es PSÍQUICO."
 
-	para "It can lower the"
-	line "target's SPECIAL"
-	cont "abilities."
+	para "¡Puede reducir"
+	line "las habilidades"
+	cont "especiales del"
+	cont "objetivo!"
 	done
 
 _MrPsychicsHouseMrPsychicTM29NoRoomText::
-	text "Where do you plan"
-	line "to put this?"
+	text "¿Dónde piensas"
+	line "poner esto?"
 	done
+

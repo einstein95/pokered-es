@@ -1,19 +1,24 @@
 _CeruleanMartCooltrainerMText::
-	text "Use REPEL to keep"
-	line "bugs and weak"
-	cont "#MON away."
+	text "Usa el REPELENTE"
+	line "para evitar a los"
+	cont "bichos y a los"
+	cont "#MON débiles."
 
-	para "Put your strongest"
-	line "#MON at the"
-	cont "top of the list"
-	cont "for best results!"
+	para "¡Pon a tu #MON"
+	line "más fuerte el"
+	cont "primero de la"
+	cont "lista para"
+	cont "conseguir mejores"
+	cont "resultados!"
 	done
 
 _CeruleanMartCooltrainerFText::
-	text "Have you seen any"
-	line "RARE CANDY?"
+	text "¿Has visto algún"
+	line "CARAMELO RARO?"
 
-	para "It's supposed to"
-	line "make #MON go"
-	cont "up one level!"
+	para "¡Dicen que un"
+	line "#MON subirá"
+	cont "un nivel"
+	cont "si se lo come!"
 	done
+

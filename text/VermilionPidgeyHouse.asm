@@ -1,22 +1,26 @@
 _VermilionPidgeyHouseYoungsterText::
-	text "I'm getting my"
-	line "PIDGEY to fly a"
-	cont "letter to SAFFRON"
-	cont "in the north!"
+	text "¡Mi PIDGEY volará"
+	line "al norte, a la"
+	cont "CIUDAD AZAFRÁN"
+	cont "para llevar una"
+	cont "carta!"
 	done
 
 _VermilionPidgeyHousePidgeyText::
-	text "PIDGEY: Kurukkoo!@"
+	text "PIDGEY: ¡Pid pid!@"
 	text_end
 
 _VermilionPidgeyHouseLetterText::
-	text "Dear PIPPI, I hope"
-	line "to see you soon."
+	text "Querido PIPPI,"
+	line "espero verte"
+	cont "pronto."
 
-	para "I heard SAFFRON"
-	line "has problems with"
-	cont "TEAM ROCKET."
+	para "Dicen que en la"
+	line "CIUDAD AZAFRÁN"
+	cont "tienen problemas"
+	cont "con TEAM ROCKET."
 
-	para "VERMILION appears"
-	line "to be safe."
+	para "La CIUDAD CARMÍN"
+	line "parece segura."
 	done
+

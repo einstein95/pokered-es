@@ -1,25 +1,29 @@
 _PewterNidoranHouseNidoranText::
-	text "NIDORAN: Bowbow!@"
+	text "NIDORAN: ¡Nidor!@"
 	text_end
 
 _PewterNidoranHouseLittleBoyText::
-	text "NIDORAN sit!"
+	text "¡Siéntate NIDORAN!"
 	done
 
 _PewterNidoranHouseMiddleAgedManText::
-	text "Our #MON's an"
-	line "outsider, so it's"
-	cont "hard to handle."
+	text "Nuestro #MON"
+	line "es un forastero,"
+	cont "y es difícil de"
+	cont "manejar."
 
-	para "An outsider is a"
-	line "#MON that you"
-	cont "get in a trade."
+	para "Un forastero es"
+	line "un #MON"
+	cont "intercambiado"
+	cont "con otro jugador."
 
-	para "It grows fast, but"
-	line "it may ignore an"
-	cont "unskilled trainer"
-	cont "in battle!"
+	para "¡Crece deprisa,"
+	line "pero podría"
+	cont "ignorar a un"
+	cont "entrenador novato"
+	cont "en los combates!"
 
-	para "If only we had"
-	line "some BADGEs..."
+	para "¡Ojalá tuviéramos"
+	line "algunas MEDALLAS!"
 	done
+

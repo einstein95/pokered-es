@@ -1,21 +1,22 @@
 _CeladonHotelGrannyText::
-	text "#MON? No, this"
-	line "is a hotel for"
-	cont "people."
+	text "¿#MON?"
+	line "No, éste es un"
+	cont "hotel para gente."
 
-	para "We're full up."
+	para "¡Está completo!"
 	done
 
 _CeladonHotelBeautyText::
-	text "I'm on vacation"
-	line "with my brother"
-	cont "and boy friend."
+	text "Estoy de"
+	line "vacaciones con mi"
+	cont "hermano y con "
+	cont "mi novio."
 
-	para "CELADON is such a"
-	line "pretty city!"
+	para "¡AZULONA es una"
+	line "bonita ciudad!"
 	done
 
 _CeladonHotelSuperNerdText::
-	text "Why did she bring"
-	line "her brother?"
+	text "¿Por qué trajo"
+	line "a su hermano?"
 	done

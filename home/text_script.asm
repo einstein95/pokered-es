@@ -200,6 +200,16 @@ DisplayPlayerBlackedOutText::
 	ld a, [wStatusFlags6]
 	res BIT_ALWAYS_ON_BIKE, a
 	ld [wStatusFlags6], a
+	CheckEvent EVENT_IN_SAFARI_ZONE
+	jr z, .didnotblackoutinsafari
+	xor a
+	ld [wNumSafariBalls], a
+	ld [wSafariSteps], a
+	ld [wSafariSteps + 1], a
+	EventFlagAddressA EVENT_IN_SAFARI_ZONE
+	ld [wNextSafariZoneGateScript], a
+	ld [wSafariZoneGateCurScript], a
+.didnotblackoutinsafari
 	jp HoldTextDisplayOpen
 
 PlayerBlackedOutText::

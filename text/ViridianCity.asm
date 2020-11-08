@@ -1,181 +1,190 @@
 _ViridianCityYoungster1Text::
-	text "Those # BALLs"
-	line "at your waist!"
-	cont "You have #MON!"
+	text "¡Esas # BALL"
+	line "de tu cintura!"
+	cont "¡Tienes #MON!"
 
-	para "It's great that"
-	line "you can carry and"
-	cont "use #MON any"
-	cont "time, anywhere!"
+	para "¡Es genial poder"
+	line "llevar y usar los"
+	cont "#MON en"
+	cont "cualquier momento"
+	cont "y lugar!"
 	done
 
 _ViridianCityGambler1GymAlwaysClosedText::
-	text "This #MON GYM"
-	line "is always closed."
+	text "Este GIMNASIO"
+	line "#MON está"
+	cont "siempre cerrado."
 
-	para "I wonder who the"
-	line "LEADER is?"
+	para "Me pregunto quién"
+	line "será su LÍDER."
 	done
 
 _ViridianCityGambler1GymLeaderReturnedText::
-	text "VIRIDIAN GYM's"
-	line "LEADER returned!"
+	text "¡Regresó el"
+	line "LÍDER del"
+	cont "GIMNASIO VERDE!"
 	done
 
 _ViridianCityYoungster2YouWantToKnowAboutText::
-	text "You want to know"
-	line "about the 2 kinds"
-	cont "of caterpillar"
+	text "¿Quieres saber"
+	line "algo sobre los 2"
+	cont "tipos de orugas"
 	cont "#MON?"
 	done
 
 ViridianCityYoungster2OkThenText::
-	text "Oh, OK then!"
+	text "¡Oh, muy bien!"
 	done
 
 ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
-	text "CATERPIE has no"
-	line "poison, but"
-	cont "WEEDLE does."
+	text "¡CATERPIE no"
+	line "tiene veneno,"
+	cont "pero WEEDLE sí!"
 
-	para "Watch out for its"
-	line "POISON STING!"
+	para "¡Cuidado con su"
+	line "VENENOSO AGUIJÓN!"
 	done
 
 _ViridianCityGirlHasntHadHisCoffeeYetText::
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	text "¡Oh abuelo! ¡No"
+	line "seas tan malo!"
+	cont "Todavía no se ha"
+	cont "tomado un café."
 	done
 
 _ViridianCityGirlWhenIGoShopText::
-	text "When I go shop in"
-	line "PEWTER CITY, I"
-	cont "have to take the"
-	cont "winding trail in"
-	cont "VIRIDIAN FOREST."
+	text "¡Cuando voy de"
+	line "compras a la"
+	cont "CIUDAD PLATEADA,"
+	cont "tomo el sinuoso"
+	cont "camino del BOSQUE"
+	cont "VERDE!"
 	done
 
 _ViridianCityOldManSleepyPrivatePropertyText::
-	text "You can't go"
-	line "through here!"
+	text "¡No puedes pasar"
+	line "por aquí!"
 
-	para "This is private"
-	line "property!"
+	para "¡Es propiedad"
+	line "privada!"
 	done
 
 ViridianCityFisherYouCanHaveThisText::
-	text "Yawn!"
-	line "I must have dozed"
-	cont "off in the sun."
+	text "(Bostezo)..."
+	line "Debo de haberme"
+	cont "dormido al sol."
 
-	para "I had this dream"
-	line "about a DROWZEE"
-	cont "eating my dream."
-	cont "What's this?"
-	cont "Where did this TM"
-	cont "come from?"
+	para "Soñé que un"
+	line "DROWZEE se"
+	cont "comía mi sueño."
+	cont "¿Qué es esto?"
+	cont "¿De dónde ha"
+	cont "salido esta MT?"
 
-	para "This is spooky!"
-	line "Here, you can"
-	cont "have this TM."
+	para "¡Qué miedo!"
+	line "Mira, te voy a"
+	cont "dar esta MT."
 	prompt
 
 _ViridianCityFisherReceivedTM42Text::
-	text "<PLAYER> received"
-	line "TM42!@"
+	text "¡<PLAYER> recibió"
+	line "la MT42!@"
 	text_end
 
 _ViridianCityFisherTM42ExplanationText::
-	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	text "La MT42 contiene"
+	line "el COME-SUEÑOS..."
+	cont "(Ronquido)..."
 	done
 
 _ViridianCityFisherTM42NoRoomText::
-	text "You have too much"
-	line "stuff already."
+	text "Tienes demasiadas"
+	line "cosas."
 	done
 
 _ViridianCityOldManHadMyCoffeeNowText::
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "¡Ya me tomé"
+	line "un café y me"
+	cont "siento genial!"
 
-	para "Sure you can go"
-	line "through!"
+	para "¡Claro que"
+	line "puedes pasar!"
 
-	para "Are you in a"
-	line "hurry?"
+	para "¿Tienes prisa?"
 	done
 
 _ViridianCityOldManKnowHowToCatchPokemonText::
-	text "I see you're using"
-	line "a #DEX."
+	text "Ya veo que tienes"
+	line "una #DEX."
 
-	para "When you catch a"
-	line "#MON, #DEX"
-	cont "is automatically"
-	cont "updated."
+	para "Cuando atrapes un"
+	line "#MON, la"
+	cont "#DEX será"
+	cont "automáticamente"
+	cont "actualizada."
 
-	para "What? Don't you"
-	line "know how to catch"
+	para "¿Qué? ¿No sabes"
+	line "cómo atrapar un"
 	cont "#MON?"
 
-	para "I'll show you"
-	line "how to then."
+	para "Pues yo te"
+	line "enseñaré."
 	done
 
 _ViridianCityOldManTimeIsMoneyText::
-	text "Time is money..."
-	line "Go along then."
+	text "El tiempo es oro."
+	line "Sigue tu camino."
 	done
 
 _ViridianCityOldManYouNeedToWeakenTheTargetText::
-	text "First, you need"
-	line "to weaken the"
-	cont "target #MON."
+	text "Primero tendrás"
+	line "que debilitar al"
+	cont "#MON objetivo."
 	done
 
 _ViridianCitySignText::
-	text "VIRIDIAN CITY "
-	line "The Eternally"
-	cont "Green Paradise"
+	text "CIUDAD VERDE"
+	line "El Paraíso del"
+	cont "eterno verdor."
 	done
 
 _ViridianCityTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "PISTAS ENTRENADOR"
 
-	para "Catch #MON"
-	line "and expand your"
-	cont "collection!"
+	para "¡Atrapa a los"
+	line "#MON y amplía"
+	cont "tu colección!"
 
-	para "The more you have,"
-	line "the easier it is"
-	cont "to fight!"
+	para "¡Cuantos más"
+	line "tengas más fácil"
+	cont "te será luchar!"
 	done
 
 _ViridianCityTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "PISTAS ENTRENADOR"
 
-	para "The battle moves"
-	line "of #MON are"
-	cont "limited by their"
-	cont "POWER POINTs, PP."
+	para "Los ataques de"
+	line "los #MON"
+	cont "dependen de sus"
+	cont "PUNTOS DE"
+	cont "PODER o PP."
 
-	para "To replenish PP,"
-	line "rest your tired"
-	cont "#MON at a"
-	cont "#MON CENTER!"
+	para "¡Para rellenar"
+	line "tus PP, deja que"
+	cont "tus cansados"
+	cont "#MON"
+	cont "descansen en un"
+	cont "CENTRO #MON!"
 	done
 
 _ViridianCityGymSignText::
-	text "VIRIDIAN CITY"
-	line "#MON GYM"
+	text "GIMNASIO #MON"
+	line "de CIUDAD VERDE"
 	done
 
 _ViridianCityGymLockedText::
-	text "The GYM's doors"
-	line "are locked..."
+	text "Las puertas del"
+	line "GIMNASIO están"
+	cont "cerradas..."
 	done
+

@@ -1,64 +1,71 @@
 _LavenderTownLittleGirlDoYouBelieveInGhostsText::
-	text "Do you believe in"
-	line "GHOSTs?"
+	text "¿Crees en los"
+	line "GHOST?"
 	done
 
 _LavenderTownLittleGirlSoThereAreBelieversText::
-	text "Really? So there"
-	line "are believers..."
+	text "¿De verdad? Hay"
+	line "quien no cree..."
 	done
 
 _LavenderTownLittleGirlHaHaGuessNotText::
-	text "Hahaha, I guess"
-	line "not."
+	text "¡Jajaja! Yo"
+	line "tampoco."
 
-	para "That white hand"
-	line "on your shoulder,"
-	cont "it's not real."
+	para "Esa mano blanca"
+	line "en tu hombro no"
+	cont "es real."
 	done
 
 _LavenderTownCooltrainerMText::
-	text "This town is known"
-	line "as the grave site"
-	cont "of #MON."
+	text "Este pueblo es"
+	line "llamado el"
+	cont "cementerio de"
+	cont "los #MON."
 
-	para "Memorial services"
-	line "are held in"
-	cont "#MON TOWER."
+	para "Los funerales se"
+	line "celebran en la"
+	cont "TORRE #MON."
 	done
 
 _LavenderTownSuperNerdText::
-	text "GHOSTs appeared"
-	line "in #MON TOWER."
+	text "Los GHOST"
+	line "aparecieron en la"
+	cont "TORRE #MON."
 
-	para "I think they're"
-	line "the spirits of"
-	cont "#MON that the"
-	cont "ROCKETs killed."
+	para "Creo que son"
+	line "espíritus de"
+	cont "#MON"
+	cont "asesinados por"
+	cont "los ROCKET."
 	done
 
 _LavenderTownSignText::
-	text "LAVENDER TOWN"
-	line "The Noble Purple"
-	cont "Town"
+	text "PUEBLO LAVANDA"
+	line "El noble pueblo"
+	cont "púrpura."
 	done
 
 _LavenderTownSilphScopeSignText::
-	text "New SILPH SCOPE!"
+	text "¡El nuevo"
+	line "SCOPE SILPH!"
 
-	para "Make the Invisible"
-	line "Plain to See!"
+	para "¡Hace Visible lo"
+	line "Invisible!"
 
-	para "SILPH CO."
+	para "SILPH S.A."
 	done
 
 _LavenderTownPokemonHouseSignText::
-	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	text "CASA #MON"
+	line "de VOLUNTARIOS de"
+	cont "PUEBLO LAVANDA"
 	done
 
 _LavenderTownPokemonTowerSignText::
-	text "May the Souls of"
-	line "#MON Rest Easy"
-	cont "#MON TOWER"
+	text "TORRE <PKMN>:"
+	line "Que las almas de"
+	cont "los #MON"
+	cont "descansen en paz."
 	done
+

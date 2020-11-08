@@ -5,15 +5,17 @@ InGameTrade_CheckForTradeEvo:
 ; For English Red and Blue, this routine was adjusted for
 ; Graveler's English name and Haunter's early English name "Spectre".
 ; The final release replaced Graveler and Haunter in TradeMons.
-	ld a, [wInGameTradeReceiveMonName]
-	cp 'G' ; GRAVELER
-	jr z, .nameMatched
+; European Red and Blue just make this function do nothing as a bug fix
+	ret
+	; ld a, [wInGameTradeReceiveMonName]
+	; cp 'G' ; GRAVELER
+	; jr z, .nameMatched
 	; "SPECTRE" (HAUNTER)
-	cp 'S'
-	ret nz
-	ld a, [wInGameTradeReceiveMonName + 1]
-	cp 'P'
-	ret nz
+	; cp 'S'
+	; ret nz
+	; ld a, [wInGameTradeReceiveMonName + 1]
+	; cp 'P'
+	; ret nz
 .nameMatched
 	ld a, [wPartyCount]
 	dec a

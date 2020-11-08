@@ -1,64 +1,70 @@
 _SSAnneCaptainsRoomRubCaptainsBackText::
-	text "CAPTAIN: Ooargh..."
-	line "I feel hideous..."
-	cont "Urrp! Seasick..."
+	text "CAPITÁN: ¡Puajj!"
+	line "Me siento fatal."
+	cont "Me he mareado..."
 
-	para "<PLAYER> rubbed"
-	line "the CAPTAIN's"
-	cont "back!"
+	para "¡<PLAYER> le dio"
+	line "un masaje al"
+	cont "CAPITÁN!"
 
-	para "Rub-rub..."
-	line "Rub-rub...@"
+	para "(Scratch)..."
+	line "(Scratch)...@"
 	text_end
 
 _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
-	text "CAPTAIN: Whew!"
-	line "Thank you! I"
-	cont "feel much better!"
+	text "CAPITÁN: ¡Uff!"
+	line "¡Gracias! Ya me"
+	cont "siento mucho"
+	cont "mejor..."
 
-	para "You want to see"
-	line "my CUT technique?"
+	para "¿Quieres ver mi"
+	line "técnica de"
+	cont "CORTAR?"
 
-	para "I could show you"
-	line "if I wasn't ill..."
+	para "Te la mostraría"
+	line "si no estuviera"
+	cont "tan mareado."
 
-	para "I know! You can"
-	line "have this!"
+	para "¡Ya sé!"
+	line "¡Toma esto!"
 
-	para "Teach it to your"
-	line "#MON and you"
-	cont "can see it CUT"
-	cont "any time!"
+	para "¡Enséñasela a tu"
+	line "#MON y en"
+	cont "breve estará"
+	cont "CORTANDO!"
 	prompt
 
 _SSAnneCaptainsRoomCaptainReceivedHM01Text::
-	text "<PLAYER> got"
+	text "¡<PLAYER> obtiene"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SSAnneCaptainsRoomCaptainNotSickAnymoreText::
-	text "CAPTAIN: Whew!"
+	text "CAPITÁN: ¡Bien!"
 
-	para "Now that I'm not"
-	line "sick any more, I"
-	cont "guess it's time."
+	para "¡Ahora que ya no"
+	line "estoy mareado,"
+	cont "creo que"
+	cont "deberíamos irnos!"
 	done
 
 _SSAnneCaptainsRoomCaptainHM01NoRoomText::
-	text "Oh no! You have"
-	line "no room for this!"
+	text "¡Oh no! ¡No"
+	line "tienes sitio"
+	cont "para esto!"
 	done
 
 _SSAnneCaptainsRoomTrashText::
-	text "Yuck! Shouldn't"
-	line "have looked!"
+	text "¡Puaj! ¡No debería"
+	line "haber mirado!"
 	done
 
 _SSAnneCaptainsRoomSeasickBookText::
-	text "How to Conquer"
-	line "Seasickness..."
-	cont "The CAPTAIN's"
-	cont "reading this!"
+	text "Comó combatir el"
+	line "Mareo..."
+	cont "¡El CAPITÁN está"
+	cont "leyendo esto!"
 	done
+

@@ -1,108 +1,120 @@
 _RockTunnelB1FCooltrainerF1BattleText::
-	text "Hikers leave twigs"
-	line "as trail markers."
+	text "Los montañeros"
+	line "marcan el camino"
+	cont "con ramitas."
 	done
 
 _RockTunnelB1FCooltrainerF1EndBattleText::
-	text "Ohhh!"
-	line "I did my best!"
+	text_start
+	line "¡Ohhh! ¡Yo hice"
+	cont "todo lo posible!"
 	prompt
 
 _RockTunnelB1FCooltrainerF1AfterBattleText::
-	text "I want to go "
-	line "home!"
+	text "¡Quiero volver"
+	line "a mi casa!"
 	done
 
 _RockTunnelB1FHiker1BattleText::
-	text "Hahaha! Can you"
-	line "beat my power?"
+	text "¡Jajaja! ¿Crees"
+	line "poder ganarme?"
 	done
 
 _RockTunnelB1FHiker1EndBattleText::
-	text "Oops!"
-	line "Out-muscled!"
+	text "¡Uups!"
+	line "Nivel muscular:"
+	cont "¡Cero!"
 	prompt
 
 _RockTunnelB1FHiker1AfterBattleText::
-	text "I go for power"
-	line "because I hate"
-	cont "thinking!"
+	text "¡Prefiero la"
+	line "fuerza porque no"
+	cont "me gusta pensar!"
 	done
 
 _RockTunnelB1FSuperNerd1BattleText::
-	text "You have a"
-	line "#DEX?"
-	cont "I want one too!"
+	text "¿Tienes una"
+	line "#DEX? ¡Yo"
+	cont "también quiero"
+	cont "una!"
 	done
 
 _RockTunnelB1FSuperNerd1EndBattleText::
-	text "Shoot!"
-	line "I'm so jealous!"
+	text_start
+	line "¡Brgg! ¡Me das"
+	cont "tanta envidia!"
 	prompt
 
 _RockTunnelB1FSuperNerd1AfterBattleText::
-	text "When you finish"
-	line "your #DEX, can"
-	cont "I have it?"
+	text "Cuando termines"
+	line "con tu #DEX"
+	cont "¿me la dejarás?"
 	done
 
 _RockTunnelB1FSuperNerd2BattleText::
-	text "Do you know about"
-	line "costume players?"
+	text "¿Qué sabes de"
+	line "esos jugadores"
+	cont "disfrazados?"
 	done
 
 _RockTunnelB1FSuperNerd2EndBattleText::
-	text "Well,"
-	line "that's that."
+	text "Pues"
+	line "eso es todo."
 	prompt
 
 _RockTunnelB1FSuperNerd2AfterBattleText::
-	text "Costume players"
-	line "dress up as"
-	cont "#MON for fun."
+	text "Los jugadores"
+	line "disfrazados"
+	cont "visten como los"
+	cont "#MON para"
+	cont "divertirse."
 	done
 
 _RockTunnelB1FHiker2BattleText::
-	text "My #MON"
-	line "techniques will"
-	cont "leave you crying!"
+	text "¡Mis técnicas de"
+	line "#MON te"
+	cont "harán llorar!"
 	done
 
 _RockTunnelB1FHiker2EndBattleText::
-	text "I give!"
-	line "You're a better"
-	cont "technician!"
+	text_start
+	line "¡Me rindo!"
+	cont "¡Tus técnicas"
+	cont "son mejores!"
 	prompt
 
 _RockTunnelB1FHiker2AfterBattleText::
-	text "In mountains,"
-	line "you'll often find"
-	cont "rock-type #MON."
+	text "En las montañas"
+	line "suele haber"
+	cont "#MON del"
+	cont "tipo-roca."
 	done
 
 _RockTunnelB1FCooltrainerF2BattleText::
-	text "I don't often"
-	line "come here, but I"
-	cont "will fight you."
+	text "¡No suelo venir"
+	line "por aquí, pero"
+	cont "lucharé contigo!"
 	done
 
 _RockTunnelB1FCooltrainerF2EndBattleText::
-	text "Oh!"
-	line "I lost!"
+	text_start
+	line "¡Oh! ¡He perdido!"
 	prompt
 
 _RockTunnelB1FCooltrainerF2AfterBattleText::
-	text "I like tiny"
-	line "#MON, big ones"
-	cont "are too scary!"
+	text "¡Me gustan los"
+	line "#MON pequeños!"
+	cont "¡Los grandes son"
+	cont "horribles!"
 	done
 
 _RockTunnelB1FHiker3BattleText::
-	text "Hit me with your"
-	line "best shot!"
+	text "¡Lánzame tu"
+	line "mejor ataque!"
 	done
 
 _RockTunnelB1FHiker3EndBattleText::
-	text "Fired"
-	line "away!"
+	text_start
+	line "¡Vamos, adelante!"
 	prompt
+

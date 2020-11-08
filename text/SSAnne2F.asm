@@ -1,63 +1,73 @@
 _SSAnne2FWaiterText::
-	text "This ship, she is"
-	line "a luxury liner"
-	cont "for trainers!"
+	text "¡Este lujoso"
+	line "barco es para"
+	cont "los entrenadores!"
 
-	para "At every port, we"
-	line "hold parties with"
-	cont "invited trainers!"
+	para "¡En cada puerto"
+	line "celebramos una"
+	cont "fiesta para los"
+	cont "entrenadores!"
 	done
 
 _SSAnne2FRivalText::
-	text "<RIVAL>: Bonjour!"
-	line "<PLAYER>!"
+	text "<RIVAL>:"
+	line "¡Bonjour <PLAYER>!"
 
-	para "Imagine seeing"
-	line "you here!"
+	para "¡Ya sabía yo"
+	line "que te vería"
+	cont "por aquí!"
 
-	para "<PLAYER>, were you"
-	line "really invited?"
+	para "¿<PLAYER>, de"
+	line "verdad fuiste"
+	cont "invitado?"
 
-	para "So how's your"
-	line "#DEX coming?"
+	para "¿Y qué tal va"
+	line "tu #DEX?"
 
-	para "I already caught"
-	line "40 kinds, pal!"
+	para "¡Ya tengo 40"
+	line "#MON,"
+	cont "chaval!"
 
-	para "Different kinds"
-	line "are everywhere!"
+	para "¡Están por todas"
+	line "partes!"
 
-	para "Crawl around in"
-	line "grassy areas!"
+	para "¡Adéntrate en"
+	line "las zonas de"
+	cont "hierba alta!"
 	done
 
 _SSAnne2FRivalDefeatedText::
-	text "Humph!"
+	text "¡Vaya!"
 
-	para "At least you're"
-	line "raising your"
-	cont "#MON!"
+	para "¡Parece que has"
+	line "entrenado bien"
+	cont "a tus #MON!"
 	prompt
 
 _SSAnne2FRivalVictoryText::
-	text "<PLAYER>! What are"
-	line "you, seasick?"
+	text "¡<PLAYER>!"
+	line "¿Estás mareado?"
 
-	para "You should shape"
-	line "up, pal!"
+	para "¡Pues deberías"
+	line "ponerte en forma,"
+	cont "amigo!"
 	prompt
 
 _SSAnne2FRivalCutMasterText::
-	text "<RIVAL>: I heard"
-	line "there was a CUT"
-	cont "master on board."
+	text "<RIVAL>: Decían"
+	line "que había un"
+	cont "maestro del CORTE"
+	cont "a bordo."
 
-	para "But, he was just a"
-	line "seasick, old man!"
+	para "¡Pero sólo era"
+	line "un viejo mareado!"
 
-	para "But, CUT itself is"
-	line "really useful!"
+	para "¡Sin embargo, la"
+	line "técnica del CORTE"
+	cont "es muy útil!"
 
-	para "You should go see"
-	line "him! Smell ya!"
+	para "¡Deberías ir"
+	line "a verle!"
+	cont "¡Hasta luego!"
 	done
+

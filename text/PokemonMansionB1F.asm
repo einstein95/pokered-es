@@ -1,39 +1,44 @@
 _PokemonMansionB1FBurglarBattleText::
-	text "Uh-oh. Where am"
-	line "I now?"
+	text "¡Oh-oh! ¿Dónde"
+	line "estoy ahora?"
 	done
 
 _PokemonMansionB1FBurglarEndBattleText::
-	text "Awooh!"
+	text "¡Uuups!"
 	prompt
 
 _PokemonMansionB1FBurglarAfterBattleText::
-	text "You can find stuff"
-	line "lying around."
+	text "Puedes recoger"
+	line "cosas del suelo."
 	done
 
 _PokemonMansionB1FScientistBattleText::
-	text "This place is"
-	line "ideal for a lab."
+	text "Este lugar es"
+	line "ideal para un"
+	cont "laboratorio."
 	done
 
 _PokemonMansionB1FScientistEndBattleText::
-	text "What"
-	line "was that for?"
+	text_start
+	line "¿Para qué era?"
 	prompt
 
 _PokemonMansionB1FScientistAfterBattleText::
-	text "I like it here!"
-	line "It's conducive to"
-	cont "my studies!"
+	text "¡Me encanta este"
+	line "sitio! ¡Es muy"
+	cont "apropiado para"
+	cont "mis estudios!"
 	done
 
 _PokemonMansionB1FDiaryText::
-	text "Diary; Sept. 1"
-	line "MEWTWO is far too"
-	cont "powerful."
+	text "Diario:"
+	line "1 de septiembre."
+	cont "MEWTWO es"
+	cont "demasiado"
+	cont "poderoso."
 
-	para "We have failed to"
-	line "curb its vicious"
-	cont "tendencies..."
+	para "No hemos sabido"
+	line "contener sus"
+	cont "malos instintos."
 	done
+

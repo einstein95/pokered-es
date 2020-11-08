@@ -1,18 +1,19 @@
 _PewterGymBrockPreBattleText::
-	text "I'm BROCK!"
-	line "I'm PEWTER's GYM"
-	cont "LEADER!"
+	text "¡Soy BROCK!"
+	line "¡GIM. LÍDER de la"
+	cont "CIUDAD PLATEADA!"
 
-	para "I believe in rock"
-	line "hard defense and"
-	cont "determination!"
+	para "¡Creo en la gran"
+	line "resistencia de"
+	cont "la roca y en la"
+	cont "determinación!"
 
-	para "That's why my"
-	line "#MON are all"
-	cont "the rock-type!"
+	para "¡Por eso todos"
+	line "mis #MON son"
+	cont "del tipo-roca!"
 
-	para "Do you still want"
-	line "to challenge me?"
-	cont "Fine then! Show"
-	cont "me your best!"
+	para "¿Todavía quieres"
+	line "desafiarme? ¡Muy"
+	cont "bien! ¡Enséñame"
+	cont "lo que vales!"
 	done

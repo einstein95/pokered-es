@@ -1,64 +1,74 @@
 _LancesRoomLanceBeforeBattleText::
-	text "Ah! I heard about"
-	line "you <PLAYER>!"
+	text "¡<PLAYER>!"
 
-	para "I lead the ELITE"
-	line "FOUR! You can"
-	cont "call me LANCE the"
-	cont "dragon trainer!"
+	para "¡Ah! ¡He oído"
+	line "hablar de ti,"
+	cont "<PLAYER>!"
 
-	para "You know that"
-	line "dragons are"
-	cont "mythical #MON!"
+	para "¡Dirijo al ALTO"
+	line "MANDO! ¡Puedes"
+	cont "llamarme LANCE,"
+	cont "el entrenador"
+	cont "de dragones!"
 
-	para "They're hard to"
-	line "catch and raise,"
-	cont "but their powers"
-	cont "are superior!"
+	para "¡Los dragones"
+	line "son míticos"
+	cont "#MON!"
 
-	para "They're virtually"
-	line "indestructible!"
+	para "¡Son difíciles"
+	line "de capturar y"
+	cont "entrenar pero"
+	cont "sus poderes son"
+	cont "muy superiores!"
 
-	para "Well, are you"
-	line "ready to lose?"
+	para "¡Son casi"
+	line "invencibles!"
 
-	para "Your LEAGUE"
-	line "challenge ends"
-	cont "with me, <PLAYER>!"
+	para "Bien, ¿preparado"
+	line "para perder?"
+
+	para "¡Tu desafío en la"
+	line "LIGA termina"
+	cont "conmigo, <PLAYER>!"
 	done
 
 _LancesRoomLanceEndBattleText::
-	text "That's it!"
+	text "¡Pues sí!"
 
-	para "I hate to admit"
-	line "it, but you are a"
-	cont "#MON master!"
+	para "¡Odio admitirlo,"
+	line "pero eres un"
+	cont "auténtico maestro"
+	cont "de #MON!"
 	prompt
 
 _LancesRoomLanceAfterBattleText::
-	text "I still can't"
-	line "believe my"
-	cont "dragons lost to"
-	cont "you, <PLAYER>!"
+	text "¡<PLAYER>, sigo"
+	line "sin poder creerme"
+	cont "que mis dragones"
+	cont "hayan sucumbido a"
+	cont "tus ataques!"
 
-	para "You are now the"
-	line "#MON LEAGUE"
-	cont "champion!"
+	para "¡Ahora eres el"
+	line "campeón de la"
+	cont "LIGA #MON!"
 
-	para "...Or, you would"
-	line "have been, but"
-	cont "you have one more"
-	cont "challenge ahead."
+	para "...O, podrías"
+	line "haberlo sido,"
+	cont "pero te espera "
+	cont "otro desafío."
 
-	para "You have to face"
-	line "another trainer!"
-	cont "His name is..."
+	para "¡Deberás luchar"
+	line "contra otro"
+	cont "entrenador!"
+	cont "Su nombre es..."
 
-	para "<RIVAL>!"
-	line "He beat the ELITE"
-	cont "FOUR before you!"
+	para "¡<RIVAL>!"
+	line "¡Él derrotó"
+	cont "al ALTO MANDO"
+	cont "antes que tú!"
 
-	para "He is the real"
-	line "#MON LEAGUE"
-	cont "champion!@"
+	para "¡Es el auténtico"
+	line "campeón de la"
+	cont "LIGA #MON!@"
 	text_end
+

@@ -68,10 +68,10 @@ LinkCableHelpText2:
 	text_end
 
 HowToLinkText:
-	db   "HOW TO LINK"
-	next "COLOSSEUM"
-	next "TRADE CENTER"
-	next "STOP READING@"
+	db   "CÓMO CONECTA"
+	next "COLISEO"
+	next "CENT. CAMBIO"
+	next "PARA DE LEER@"
 
 LinkCableInfoTexts:
 	dw LinkCableInfoText1
@@ -111,7 +111,7 @@ ViridianSchoolBlackboard::
 	ld hl, wStatusFlags5
 	set BIT_NO_TEXT_DELAY, [hl]
 	hlcoord 0, 0
-	lb bc, 6, 10
+	lb bc, 6, 11
 	call TextBoxBorder
 	hlcoord 1, 2
 	ld de, StatusAilmentText1
@@ -185,16 +185,14 @@ ViridianSchoolBlackboardText2:
 	text_end
 
 StatusAilmentText1:
-	db   " SLP"
-	next " PSN"
+	db   " DOR"
+	next " ENV"
 	next " PAR@"
 
 StatusAilmentText2:
-	db   " BRN"
-	next " FRZ"
-	next " QUIT@"
-
-	db "@" ; unused
+	db   " QUE"
+	next " CON"
+	next " SALIR@"
 
 ViridianBlackboardStatusPointers:
 	dw ViridianBlackboardSleepText

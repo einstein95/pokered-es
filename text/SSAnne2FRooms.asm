@@ -1,113 +1,126 @@
 _SSAnne2FRoomsGentleman3Text::
-	text "In all my travels"
-	line "I've never seen"
-	cont "any #MON sleep"
-	cont "like this one!"
+	text "¡Durante todos"
+	line "mis viajes jamás"
+	cont "había visto a un"
+	cont "#MON que"
+	cont "durmiera tanto!"
 
-	para "It was something"
-	line "like this!"
+	para "¡Era algo"
+	line "así!..."
 	prompt
 
 _SSAnne2FRoomsGentleman4Text::
-	text "Ah yes, I have"
-	line "seen some #MON"
-	cont "ferry people"
-	cont "across the water!"
+	text "¡Ah sí! ¡Vi a"
+	line "unos #MON"
+	cont "transportando a"
+	cont "gente por el"
+	cont "agua!"
 	done
 
 _SSAnne2FRoomsGrampsText::
-	text "#MON can CUT"
-	line "down small bushes."
+	text "Los #MON"
+	line "pueden CORTAR"
+	cont "pequeños"
+	cont "arbustos."
 	done
 
 _SSAnne2FRoomsGentleman5Text::
-	text "Have you gone to"
-	line "the SAFARI ZONE"
-	cont "in FUCHSIA CITY?"
+	text "¿Has ido a la"
+	line "ZONA DE SAFARI"
+	cont "en la CIUDAD"
+	cont "FUCSIA?"
 
-	para "It had many rare"
-	line "kinds of #MON!!"
+	para "¡Había muchos"
+	line "tipos raros de"
+	cont "#MON!"
 	done
 
 _SSAnne2FRoomsLittleBoyText::
-	text "Me and my Daddy"
-	line "think the SAFARI"
-	cont "ZONE is awesome!"
+	text "¡Mi padre y yo"
+	line "pensamos que la"
+	cont "ZONA DE SAFARI"
+	cont "es genial!"
 	done
 
 _SSAnne2FRoomsBrunetteGirlText::
-	text "The CAPTAIN looked"
-	line "really sick and"
-	cont "pale!"
+	text "¡El CAPITÁN"
+	line "parecía muy"
+	cont "mareado y pálido!"
 	done
 
 _SSAnne2FRoomsBeautyText::
-	text "I hear many people"
-	line "get seasick!"
+	text "¡Dicen que hay"
+	line "mucha gente"
+	cont "que se marea!"
 	done
 
 _SSAnne2FRoomsGentleman1BattleText::
-	text "Competing against"
-	line "the young keeps"
-	cont "me youthful."
+	text "¡Competir contra"
+	line "los jóvenes me"
+	cont "mantiene joven!"
 	done
 
 _SSAnne2FRoomsGentleman1EndBattleText::
-	text "Good"
-	line "fight! Ah, I feel"
-	cont "young again!"
+	text "¡Buena"
+	line "pelea! ¡Vuelvo a"
+	cont "sentirme joven!"
 	prompt
 
 _SSAnne2FRoomsGentleman1AfterBattleText::
-	text "15 years ago, I"
-	line "would have won!"
+	text "¡Hace 15 años, yo"
+	line "habría ganado!"
 	done
 
 _SSAnne2FRoomsFisherBattleText::
-	text "Check out what I"
-	line "fished up!"
+	text "¡Mira lo que"
+	line "he pescado!"
 	done
 
 _SSAnne2FRoomsFisherEndBattleText::
-	text "I'm"
-	line "all out!"
+	text_start
+	line "¡Estoy acabado!"
 	prompt
 
 _SSAnne2FRoomsFisherAfterBattleText::
-	text "Party?"
+	text "¿Una fiesta?"
 
-	para "The cruise ship's"
-	line "party should be"
-	cont "over by now."
+	para "La fiesta del"
+	line "crucero debe de"
+	cont "haber terminado."
 	done
 
 _SSAnne2FRoomsGentleman2BattleText::
-	text "Which do you like,"
-	line "a strong or a"
-	cont "rare #MON?"
+	text "¿Qué prefieres,"
+	line "un #MON fuerte"
+	cont "o uno raro?"
 	done
 
 _SSAnne2FRoomsGentleman2EndBattleText::
-	text "I must"
-	line "salute you!"
+	text "¡Debo"
+	line "felicitarte!"
 	prompt
 
 _SSAnne2FRoomsGentleman2AfterBattleText::
-	text "I prefer strong"
-	line "and rare #MON."
+	text "¡Prefiero a"
+	line "los #MON"
+	cont "fuertes y raros!"
 	done
 
 _SSAnne2FRoomsCooltrainerFBattleText::
-	text "I never saw you"
-	line "at the party."
+	text "Nunca te había"
+	line "visto en la"
+	cont "fiesta."
 	done
 
 _SSAnne2FRoomsCooltrainerFEndBattleText::
-	text "Take"
-	line "it easy!"
+	text "¡Oye!"
+	line "¡¡¡No te pongas"
+	cont "nervioso!!!"
 	prompt
 
 _SSAnne2FRoomsCooltrainerFAfterBattleText::
-	text "Oh, I adore your"
-	line "strong #MON!"
+	text "¡Oh! ¡Adoro a"
+	line "tus fuertes"
+	cont "#MON!"
 	done
+

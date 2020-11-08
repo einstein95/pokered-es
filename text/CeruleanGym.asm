@@ -1,133 +1,144 @@
 _CeruleanGymMistyPreBattleText::
-	text "Hi, you're a new"
-	line "face!"
+	text "¡Hola! ¡Tú eres"
+	line "nuevo por aquí!"
 
-	para "Trainers who want"
-	line "to turn pro have"
-	cont "to have a policy"
-	cont "about #MON!"
+	para "¡Los entrenadores"
+	line "profesionales"
+	cont "deben tener una"
+	cont "estrategia para"
+	cont "sus #MON!"
 
-	para "What is your"
-	line "approach when you"
-	cont "catch #MON?"
+	para "¿Qué táctica"
+	line "sigues tú para"
+	cont "atrapar a los"
+	cont "#MON?"
 
-	para "My policy is an"
-	line "all-out offensive"
-	cont "with water-type"
-	cont "#MON!"
+	para "¡Mi táctica es la"
+	line "ofensiva total"
+	cont "con los #MON"
+	cont "del tipo-agua!"
 	done
 
 _CeruleanGymMistyTM11ExplanationText::
-	text "TM11 teaches"
-	line "BUBBLEBEAM!"
+	text "¡La MT11 enseña"
+	line "el RAYO BURBUJA!"
 
-	para "Use it on an"
-	line "aquatic #MON!"
+	para "¡Úsala con los"
+	line "#MON de agua!"
 	done
 
 _CeruleanGymMistyCascadeBadgeInfoText::
-	text "The CASCADEBADGE"
-	line "makes all #MON"
-	cont "up to L30 obey!"
+	text "¡La MEDALLA"
+	line "CASCADA obligará"
+	cont "a todos los"
+	cont "#MON por"
+	cont "debajo del nivel"
+	cont "30 a obedecer!"
 
-	para "That includes"
-	line "even outsiders!"
+	para "¡Incluidos los"
+	line "forasteros!"
 
-	para "There's more, you"
-	line "can now use CUT"
-	cont "any time!"
+	para "¡Y podrás usar"
+	line "CORTAR siempre"
+	cont "que quieras!"
 
-	para "You can CUT down"
-	line "small bushes to"
-	cont "open new paths!"
+	para "¡Puedes CORTAR"
+	line "pequeños arbustos"
+	cont "para abrir"
+	cont "nuevos caminos!"
 
-	para "You can also have"
-	line "my favorite TM!"
+	para "¡Y te daré mi"
+	line "MT favorita!"
 	done
 
 _CeruleanGymMistyReceivedTM11Text::
-	text "<PLAYER> received"
-	line "TM11!@"
+	text "¡<PLAYER> obtiene"
+	line "la MT11!@"
 	text_end
 
 _CeruleanGymMistyTM11NoRoomText::
-	text "You better make"
-	line "room for this!"
+	text "¡Mejor que le"
+	line "hagas sitio!"
 	done
 
 _CeruleanGymMistyReceivedCascadeBadgeText::
-	text "Wow!"
-	line "You're too much!"
+	text "¡Uauuu!"
+	line "¡Eres demasiado!"
 
-	para "All right!"
+	para "¡Muy bien!"
 
-	para "You can have the"
-	line "CASCADEBADGE to"
-	cont "show you beat me!@"
+	para "¡Toma la MEDALLA"
+	line "CASCADA para que"
+	cont "todos sepan que"
+	cont "me ganaste!@"
 	text_end
 
 _CeruleanGymBattleText1::
-	text "I'm more than good"
-	line "enough for you!"
+	text "¡Soy demasiado"
+	line "buena para ti!"
 
-	para "MISTY can wait!"
+	para "¡MISTY puede"
+	line "esperar!"
 	done
 
 _CeruleanGymEndBattleText1::
-	text "You"
-	line "overwhelmed me!"
+	text_start
+	line "¡Me machacaste!"
 	prompt
 
 _CeruleanGymAfterBattleText1::
-	text "You have to face"
-	line "other trainers to"
-	cont "find out how good"
-	cont "you really are."
+	text "Tienes que luchar"
+	line "contra otros"
+	cont "entrenadores para"
+	cont "saber lo bueno"
+	cont "que eres."
 	done
 
 _CeruleanGymBattleText2::
-	text "Splash!"
+	text "¡Splash!"
 
-	para "I'm first up!"
-	line "Let's do it!"
+	para "¡Soy el primero!"
+	line "¡Al ataque!"
 	done
 
 _CeruleanGymEndBattleText2::
-	text "That"
-	line "can't be!"
+	text "¡No"
+	line "puede ser!"
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
-	line "keep improving!"
+	text "¡MISTY seguirá"
+	line "mejorando!"
 
-	para "She won't lose to"
-	line "someone like you!"
+	para "¡Y no perderá con"
+	line "alguien como tú!"
 	done
 
 _CeruleanGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "¡Hola,"
+	line "posible campeón!"
 
-	para "Here's my advice!"
+	para "¡Un consejo!"
 
-	para "The LEADER, MISTY,"
-	line "is a pro who uses"
-	cont "water #MON!"
+	para "¡La LÍDER, MISTY,"
+	line "es profesional y"
+	cont "usa #MON"
+	cont "acuáticos!"
 
-	para "You can drain all"
-	line "their water with"
-	cont "plant #MON!"
+	para "¡Puedes absorber"
+	line "toda su agua con"
+	cont "los #MON"
+	cont "del tipo-planta!"
 
-	para "Or, zap them with"
-	line "electricity!"
+	para "¡O atrápalos con"
+	line "la electricidad!"
 	done
 
 _CeruleanGymGymGuideBeatMistyText::
-	text "You beat MISTY!"
-	line "What'd I tell ya?"
+	text "¡Ganaste a MISTY!"
+	line "¿Qué decirte?"
 
-	para "You and me kid,"
-	line "we make a pretty"
-	cont "darn good team!"
+	para "¡Tú y yo formamos"
+	line "un equipo súper"
+	cont "fuerte!"
 	done

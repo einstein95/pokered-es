@@ -1,172 +1,179 @@
 _Route15CooltrainerF1BattleText::
-	text "Let me try out the"
-	line "#MON I just"
-	cont "got in a trade!"
+	text "¡Déjame probar el"
+	line "#MON que"
+	cont "acabo de cambiar!"
 	done
 
 _Route15CooltrainerF1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "¡No"
+	line "fue suficiente!"
 	prompt
 
 _Route15CooltrainerF1AfterBattleText::
-	text "You can't change"
-	line "the nickname of"
-	cont "any #MON you"
-	cont "get in a trade."
+	text "No puedes variar"
+	line "el mote de ningún"
+	cont "#MON que"
+	cont "hayas cambiado."
 
-	para "Only the Original"
-	line "Trainer can."
+	para "¡El entrenador"
+	line "original es el"
+	cont "único que puede!"
 	done
 
 _Route15CooltrainerF2BattleText::
-	text "You look gentle,"
-	line "so I think I can"
-	cont "beat you!"
+	text "¡Pareces manso!"
+	line "¡Creo que podría"
+	cont "vencerte!"
 	done
 
 _Route15CooltrainerF2EndBattleText::
 	text "No,"
-	line "wrong!"
+	line "¡muy mal!"
 	prompt
 
 _Route15CooltrainerF2AfterBattleText::
-	text "I'm afraid of"
-	line "BIKERs, they look"
-	cont "so ugly and mean!"
+	text "¡Me dan miedo los"
+	line "MOTORISTAS, son"
+	cont "feos y malos!"
 	done
 
 _Route15CooltrainerM1BattleText::
-	text "When I whistle, I"
-	line "can summon bird"
-	cont "#MON!"
+	text "¡Silbando puedo"
+	line "llamar a los"
+	cont "pájaros #MON!"
 	done
 
 _Route15CooltrainerM1EndBattleText::
-	text "Ow!"
-	line "That's tragic!"
+	text "¡Ooh!"
+	line "¡Qué tragedia!"
 	prompt
 
 _Route15CooltrainerM1AfterBattleText::
-	text "Maybe I'm not cut"
-	line "out for battles."
+	text "Puede que no esté"
+	line "hecho para luchar"
+	cont "contra otros."
 	done
 
 _Route15CooltrainerM2BattleText::
-	text "Hmm? My birds are"
-	line "shivering! You're"
-	cont "good, aren't you?"
+	text "Mis pájaros están"
+	line "temblando. Eres"
+	cont "muy fuerte ¿no?"
 	done
 
 _Route15CooltrainerM2EndBattleText::
-	text "Just"
-	line "as I thought!"
+	text "¡Lo"
+	line "que pensaba!"
 	prompt
 
 _Route15CooltrainerM2AfterBattleText::
-	text "Did you know moves"
-	line "like EARTHQUAKE"
-	cont "don't have any"
-	cont "effect on birds?"
+	text "¿Sabías que los"
+	line "movimientos tipo"
+	cont "TERREMOTO no"
+	cont "afectan a los"
+	cont "pájaros?"
 	done
 
 _Route15Beauty1BattleText::
-	text "Oh, you're a"
-	line "little cutie!"
+	text "¡Oh! ¡Eres tan"
+	line "mono!"
 	done
 
 _Route15Beauty1EndBattleText::
-	text "You looked"
-	line "so cute too!"
+	text_start
+	line "¡Y parecías"
+	cont "tan mono!"
 	prompt
 
 _Route15Beauty1AfterBattleText::
-	text "I forgive you!"
-	line "I can take it!"
+	text "¡Te perdono!"
+	line "¡Eres tan mono!"
 	done
 
 _Route15Beauty2BattleText::
-	text "I raise #MON"
-	line "because I live"
-	cont "alone!"
+	text "¡Cuido #MON"
+	line "porque vivo sola!"
 	done
 
 _Route15Beauty2EndBattleText::
-	text "I didn't"
-	line "ask for this!"
+	text "¡Yo no"
+	line "pedí esto!"
 	prompt
 
 _Route15Beauty2AfterBattleText::
-	text "I just like going"
-	line "home to be with"
-	cont "my #MON!"
+	text "¡Me gusta ir a"
+	line "casa para estar"
+	cont "con mis #MON!"
 	done
 
 _Route15Biker1BattleText::
-	text "Hey kid! C'mon!"
-	line "I just got these!"
+	text "¡Oye! ¡Ven aquí!"
+	line "¡Mira esto!"
 	done
 
 _Route15Biker1EndBattleText::
-	text "Why"
-	line "not?"
+	text "¿Por"
+	line "qué no?"
 	prompt
 
 _Route15Biker1AfterBattleText::
-	text "You only live"
-	line "once, so I live"
-	cont "as an outlaw!"
-	cont "TEAM ROCKET RULES!"
+	text "¡Sólo se vive una"
+	line "vez, y yo vivo"
+	cont "como un forajido!"
+	cont "¡NORMAS del"
+	cont "TEAM ROCKET!"
 	done
 
 _Route15Biker2BattleText::
-	text "Fork over all your"
-	line "cash when you"
-	cont "lose to me, kid!"
+	text "¡Mira chaval, si"
+	line "pierdes contra"
+	cont "mí, todo tu"
+	cont "dinero será mío!"
 	done
 
 _Route15Biker2EndBattleText::
-	text "That"
-	line "can't be true!"
+	text "¡Pero"
+	line "eso es imposible!"
 	prompt
 
 _Route15Biker2AfterBattleText::
-	text "I was just joking"
-	line "about the money!"
+	text "¡Sólo bromeaba en"
+	line "cuanto al dinero!"
 	done
 
 _Route15CooltrainerF3BattleText::
-	text "What's cool?"
-	line "Trading #MON!"
+	text "¿Qué mola?"
+	line "¡Cambiar #MON!"
 	done
 
 _Route15CooltrainerF3EndBattleText::
-	text "I"
-	line "said trade!"
+	text "¡He"
+	line "dicho cambiar!"
 	prompt
 
 _Route15CooltrainerF3AfterBattleText::
-	text "I trade #MON"
-	line "with my friends!"
+	text "¡Cambio #MON"
+	line "con mis amigos!"
 	done
 
 _Route15CooltrainerF4BattleText::
-	text "Want to play with"
-	line "my #MON?"
+	text "¿Quieres jugar"
+	line "con mis #MON?"
 	done
 
 _Route15CooltrainerF4EndBattleText::
-	text "I was"
-	line "too impatient!"
+	text_start
+	line "¡Estaba demasiado"
+	cont "impaciente!"
 	prompt
 
 _Route15CooltrainerF4AfterBattleText::
-	text "I'll go train with"
-	line "weaker people.@"
+	text "¡Me entrenaré con"
+	line "gente más débil!@"
 	text_end
 
 _Route15SignText::
-	text "ROUTE 15"
-	line "West to FUCHSIA"
-	cont "CITY"
+	text "RUTA 15:"
+	line "CIUDAD FUCSIA"
+	cont "al oeste"
 	done
+

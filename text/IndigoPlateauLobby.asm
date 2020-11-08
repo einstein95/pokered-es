@@ -1,25 +1,30 @@
 _IndigoPlateauLobbyGymGuideText::
-	text "Yo! Champ in"
-	line "making!"
+	text "¡Hola, posible"
+	line "campeón!"
 
-	para "At #MON LEAGUE,"
-	line "you have to face"
-	cont "the ELITE FOUR in"
-	cont "succession."
+	para "En la LIGA"
+	line "#MON tendrás"
+	cont "que luchar contra"
+	cont "el ALTO MANDO"
+	cont "uno tras otro."
 
-	para "If you lose, you"
-	line "have to start all"
-	cont "over again! This"
-	cont "is it! Go for it!"
+	para "¡Si pierdes,"
+	line "tendrás que"
+	cont "volver a empezar!"
+	cont "¡Eso es todo!"
+	cont "¡A por ellos!"
 	done
 
 _IndigoPlateauLobbyCooltrainerFText::
-	text "From here on, you"
-	line "face the ELITE"
-	cont "FOUR one by one!"
+	text "¡Ahora lucharás"
+	line "contra el ALTO"
+	cont "MANDO, de uno"
+	cont "en uno!"
 
-	para "If you win, a"
-	line "door opens to the"
-	cont "next trainer!"
-	cont "Good luck!"
+	para "¡Si ganas, se"
+	line "abrirá una puerta"
+	cont "al siguiente"
+	cont "entrenador!"
+	cont "¡Buena suerte!"
 	done
+

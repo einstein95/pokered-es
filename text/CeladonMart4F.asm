@@ -1,26 +1,29 @@
 _CeladonMart4FSuperNerdText::
-	text "I'm getting a"
-	line "# DOLL for my"
-	cont "girl friend!"
+	text "¡Compraré una"
+	line "# MUÑECA"
+	cont "para mi novia!"
 	done
 
 _CeladonMart4FYoungsterText::
-	text "I heard something"
-	line "useful."
+	text "¡Me dijeron una"
+	line "cosa!"
 
-	para "You can run from"
-	line "wild #MON by"
-	cont "distracting them"
-	cont "with a # DOLL!"
+	para "¡Puedes huir de"
+	line "un #MON"
+	cont "salvaje si le"
+	cont "distraes con una"
+	cont "# MUÑECA!"
 	done
 
 _CeladonMart4FCurrentFloorSignText::
-	text "Express yourself"
-	line "with gifts!"
+	text "¡Dilo con un"
+	line "regalo!"
 
-	para "4F: WISEMAN GIFTS"
+	para "P3: REGALOS"
 
-	para "Evolution Special!"
-	line "Element STONEs on"
-	cont "sale now!"
+	para "¡Evolución"
+	line "Especial!"
+	cont "¡Diversas PIEDRAS"
+	cont "Elementales en"
+	cont "venta!"
 	done

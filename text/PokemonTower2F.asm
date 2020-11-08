@@ -1,57 +1,59 @@
 _PokemonTower2FRivalWhatBringsYouHereText::
-	text "<RIVAL>: Hey,"
-	line "<PLAYER>! What"
-	cont "brings you here?"
-	cont "Your #MON"
-	cont "don't look dead!"
+	text "<RIVAL>: ¡Oye,"
+	line "<PLAYER>! ¿Qué"
+	cont "haces por aquí?"
+	cont "¡Tus #MON no"
+	cont "pueden morir!"
 
-	para "I can at least"
-	line "make them faint!"
-	cont "Let's go, pal!"
+	para "¡Al menos puedo"
+	line "debilitarlos!"
+	cont "¡Vamos chico!"
 	done
 
 _PokemonTower2FRivalDefeatedText::
-	text "What?"
-	line "You stinker!"
+	text "¿Qué?"
+	line "¡Qué malo eres!"
 
-	para "I took it easy on"
-	line "you too!"
+	para "¡Y te había"
+	line "tomado en serio!"
 	prompt
 
 _PokemonTower2FRivalVictoryText::
-	text "<RIVAL>: Well,"
-	line "look at all your"
-	cont "wimpy #MON!"
+	text "<RIVAL>: ¡Mira"
+	line "que canijos son"
+	cont "tus #MON!"
 
-	para "Toughen them up a"
-	line "bit more!"
+	para "¡Fortalécelos"
+	line "un poco!"
 	prompt
 
 _PokemonTower2FRivalHowsYourDexText::
-	text "How's your #DEX"
-	line "coming, pal?"
-	cont "I just caught a"
-	cont "CUBONE!"
+	text "¿Qué tal va tu"
+	line "#DEX? ¡Acabo"
+	cont "de capturar"
+	cont "un CUBONE!"
 
-	para "I can't find the"
-	line "grown-up MAROWAK"
-	cont "yet!"
+	para "¡Todavía no he"
+	line "encontrado al"
+	cont "MAROWAK adulto!"
 
-	para "I doubt there are"
-	line "any left! Well, I"
-	cont "better get going!"
-	cont "I've got a lot to"
-	cont "accomplish, pal!"
+	para "¡No creo que"
+	line "quede ninguno!"
+	cont "¡Mejor que me"
+	cont "vaya! ¡Me queda"
+	cont "mucho por hacer!"
 
-	para "Smell ya later!"
+	para "¡Hasta luego!"
 	done
 
 _PokemonTower2FChannelerText::
-	text "Even we could not"
-	line "identify the"
-	cont "wayward GHOSTs!"
+	text "¡Ni siquiera"
+	line "pudimos"
+	cont "identificar a"
+	cont "los GHOST!"
 
-	para "A SILPH SCOPE"
-	line "might be able to"
-	cont "unmask them."
+	para "El SCOPE SILPH"
+	line "podría"
+	cont "desenmascararlos."
 	done
+

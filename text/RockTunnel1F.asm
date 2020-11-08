@@ -1,115 +1,123 @@
 _RockTunnel1FHiker1BattleText::
-	text "This tunnel goes"
-	line "a long way, kid!"
+	text "¡Este oscuro túnel"
+	line "recorre un largo"
+	cont "camino, chico!"
 	done
 
 _RockTunnel1FHiker1EndBattleText::
-	text "Doh!"
-	line "You win!"
+	text "¡Uauu!"
+	line "¡Tú ganas!"
 	prompt
 
 _RockTunnel1FHiker1AfterBattleText::
-	text "Watch for ONIX!"
-	line "It can put the"
-	cont "squeeze on you!"
+	text "Cuidado con ONIX."
+	line "¡Podría apretarte"
+	cont "las clavijas!"
 	done
 
 _RockTunnel1FHiker2BattleText::
-	text "Hmm. Maybe I'm"
-	line "lost in here..."
+	text "Mmm. Puede que me"
+	line "haya perdido..."
 	done
 
 _RockTunnel1FHiker2EndBattleText::
-	text "Ease up!"
-	line "What am I doing?"
-	cont "Which way is out?"
+	text_start
+	line "¡Tranquilo!"
+	cont "¿Qué hago?"
+	cont "¿Por dónde salgo?"
 	prompt
 
 _RockTunnel1FHiker2AfterBattleText::
-	text "That sleeping"
-	line "#MON on ROUTE"
-	cont "12 forced me to"
-	cont "take this detour."
+	text "Ese #MON"
+	line "dormido de la"
+	cont "RUTA 12 me obligó"
+	cont "a desviarme."
 	done
 
 _RockTunnel1FHiker3BattleText::
-	text "Outsiders like"
-	line "you need to show"
-	cont "me some respect!"
+	text "¡Los forasteros"
+	line "como tú deberían"
+	cont "respetarme!"
 	done
 
 _RockTunnel1FHiker3EndBattleText::
-	text "I give!"
+	text_start
+	line "¡Me rindo!"
 	prompt
 
 _RockTunnel1FHiker3AfterBattleText::
-	text "You're talented"
-	line "enough to hike!"
+	text "¡Tienes madera de"
+	line "buen montañero!"
 	done
 
 _RockTunnel1FSuperNerdBattleText::
-	text "#MON fight!"
-	line "Ready, go!"
+	text "¡Lucha #MON!"
+	line "¿Listo? ¡YA!"
 	done
 
 _RockTunnel1FSuperNerdEndBattleText::
-	text "Game"
-	line "over!"
+	text_start
+	line "¡Final del"
+	cont "juego!"
 	prompt
 
 _RockTunnel1FSuperNerdAfterBattleText::
-	text "Oh well, I'll get"
-	line "a ZUBAT as I go!"
+	text "¡Conseguiré un"
+	line "ZUBAT por"
+	cont "el camino!"
 	done
 
 _RockTunnel1FCooltrainerF1BattleText::
-	text "Eek! Don't try"
-	line "anything funny in"
-	cont "the dark!"
+	text "¡Oye! ¡No hagas"
+	line "tonterías en la"
+	cont "oscuridad!"
 	done
 
 _RockTunnel1FCooltrainerF1EndBattleText::
-	text "It"
-	line "was too dark!"
+	text_start
+	line "¡Estaba"
+	cont "demasiado oscuro!"
 	prompt
 
 _RockTunnel1FCooltrainerF1AfterBattleText::
-	text "I saw a MACHOP"
-	line "in this tunnel!"
+	text "¡Vi a un MACHOP"
+	line "en este túnel!"
 	done
 
 _RockTunnel1FCooltrainerF2BattleText::
-	text "I came this far"
-	line "for #MON!"
+	text "¡Vine hasta aquí"
+	line "por los #MON!"
 	done
 
 _RockTunnel1FCooltrainerF2EndBattleText::
-	text "I'm"
-	line "out of #MON!"
+	text_start
+	line "¡Me he quedado"
+	cont "sin #MON!"
 	prompt
 
 _RockTunnel1FCooltrainerF2AfterBattleText::
-	text "You looked cute"
-	line "and harmless!"
+	text "¡Parecías muy"
+	line "mono e indefenso!"
 	done
 
 _RockTunnel1FCooltrainerF3BattleText::
-	text "You have #MON!"
-	line "Let's start!"
+	text "¡Tienes #MON!"
+	line "¡Empecemos!"
 	done
 
 _RockTunnel1FCooltrainerF3EndBattleText::
-	text "You"
-	line "play hard!"
+	text_start
+	line "¡Juegas duro!"
 	prompt
 
 _RockTunnel1FCooltrainerF3AfterBattleText::
-	text "Whew! I'm all"
-	line "sweaty now!"
+	text "¡Ufff! ¡Estoy"
+	line "sudando ahora!"
 	done
 
 _RockTunnel1FSignText::
-	text "ROCK TUNNEL"
-	line "CERULEAN CITY -"
-	cont "LAVENDER TOWN"
+	text "TÚNEL ROCA:"
+	line "CIUDAD CELESTE -"
+	cont "PUEBLO LAVANDA"
 	done
+

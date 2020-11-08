@@ -1,97 +1,101 @@
 _SafariZoneGateSafariZoneWorker1Text::
-	text "Welcome to the"
-	line "SAFARI ZONE!"
+	text "¡Bienvenido a la"
+	line "ZONA del SAFARI!"
 	done
 
 _SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText::
-	text "For just ¥500,"
-	line "you can catch all"
-	cont "the #MON you"
-	cont "want in the park!"
+	text "¡Por sólo 500¥,"
+	line "podrás atrapar a"
+	cont "todos los #MON"
+	cont "que quieras en"
+	cont "el parque!"
 
-	para "Would you like to"
-	line "join the hunt?@"
+	para "¿Te gustaría"
+	line "unirte a la caza?@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1ThatllBe500PleaseText::
-	text "That'll be ¥500"
-	line "please!"
+	text "¡Son 500¥,"
+	line "por favor!"
 
-	para "We only use a"
-	line "special # BALL"
-	cont "here."
+	para "Aquí sólo usamos"
+	line "cierto tipo de"
+	cont "# BALL."
 
-	para "<PLAYER> received"
-	line "30 SAFARI BALLs!@"
+	para "¡<PLAYER> obtuvo"
+	line "30 SAFARI BALL!@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1CallYouOnThePAText::
 	text_start
 
-	para "We'll call you on"
-	line "the PA when you"
-	cont "run out of time"
-	cont "or SAFARI BALLs!"
+	para "¡Te avisaremos"
+	line "cuando se agoten"
+	cont "tus SAFARI BALL"
+	cont "o tu tiempo!"
 	done
 
 _SafariZoneGateSafariZoneWorker1PleaseComeAgainText::
-	text "OK! Please come"
-	line "again!"
+	text "¡Bien! ¡Vuelve"
+	line "cuando quieras!"
 	done
 
 _SafariZoneGateSafariZoneWorker1NotEnoughMoneyText::
-	text "Oops! Not enough"
-	line "money!"
+	text "¡Uuups! ¡No hay"
+	line "bastante dinero!"
 	done
 
 _SafariZoneGateSafariZoneWorker1LeavingEarlyText::
-	text "Leaving early?@"
+	text "¿Ya te vas?@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1ReturnSafariBallsText::
-	text "Please return any"
-	line "SAFARI BALLs you"
-	cont "have left."
+	text "Devuelve las"
+	line "SAFARI BALL que"
+	cont "te sobren."
 	done
 
 _SafariZoneGateSafariZoneWorker1GoodLuckText::
-	text "Good Luck!"
+	text "¡Buena suerte!"
 	done
 
 _SafariZoneGateSafariZoneWorker1GoodHaulComeAgainText::
-	text "Did you get a"
-	line "good haul?"
-	cont "Come again!"
+	text "¿Has tenido buena"
+	line "caza? ¡Vuelve"
+	cont "cuando quieras!"
 	done
 
 _SafariZoneGateSafariZoneWorker2FirstTimeHereText::
-	text "Hi! Is it your"
-	line "first time here?"
+	text "¡Hola! ¿Es tu"
+	line "primera vez aquí?"
 	done
 
 _SafariZoneGateSafariZoneWorker2SafariZoneExplanationText::
-	text "SAFARI ZONE has 4"
-	line "zones in it."
+	text "La ZONA-SAFARI"
+	line "incluye 4 áreas."
 
-	para "Each zone has"
-	line "different kinds"
-	cont "of #MON. Use"
-	cont "SAFARI BALLs to"
-	cont "catch them!"
+	para "Cada zona tiene"
+	line "diferentes tipos"
+	cont "de #MON. ¡Usa"
+	cont "las SAFARI BALL"
+	cont "para atraparlos!"
 
-	para "When you run out"
-	line "of time or SAFARI"
-	cont "BALLs, it's game"
-	cont "over for you!"
+	para "¡Si agotas el"
+	line "tiempo o las"
+	cont "SAFARI BALL, el"
+	cont "juego se dará"
+	cont "por terminado!"
 
-	para "Before you go,"
-	line "open an unused"
-	cont "#MON BOX so"
-	cont "there's room for"
-	cont "new #MON!"
+	para "¡Antes de ir,"
+	line "abre una nueva"
+	cont "CAJA #MON"
+	cont "y tendrás más"
+	cont "sitio para nuevos"
+	cont "#MON!"
 	done
 
 _SafariZoneGateSafariZoneWorker2YoureARegularHereText::
-	text "Sorry, you're a"
-	line "regular here!"
+	text "¡Perdona, vienes"
+	line "mucho por aquí!"
 	done
+

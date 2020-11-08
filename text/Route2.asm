@@ -1,9 +1,10 @@
 _Route2SignText::
-	text "ROUTE 2"
-	line "VIRIDIAN CITY -"
-	cont "PEWTER CITY"
+	text "RUTA 2:"
+	line "CIUDAD VERDE -"
+	cont "CIUDAD PLATEADA"
 	done
 
 _Route2DiglettsCaveSignText::
-	text "DIGLETT's CAVE"
+	text "CUEVA DE DIGLETT"
 	done
+

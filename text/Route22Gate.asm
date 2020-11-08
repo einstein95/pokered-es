@@ -1,22 +1,23 @@
 _Route22GateGuardNoBoulderbadgeText::
-	text "Only truly skilled"
-	line "trainers are"
-	cont "allowed through."
+	text "Sólo pueden pasar"
+	line "los entrenadores"
+	cont "expertos."
 
-	para "You don't have the"
-	line "BOULDERBADGE yet!@"
+	para "¡Aún no tienes"
+	line "la MEDALLA ROCA!@"
 	text_end
 
 _Route22GateGuardICantLetYouPassText::
 	text_start
 
-	para "The rules are"
-	line "rules. I can't"
-	cont "let you pass."
+	para "Las reglas son"
+	line "las reglas. ¡No"
+	cont "puedes pasar!"
 	done
 
 _Route22GateGuardGoRightAheadText::
-	text "Oh! That is the"
-	line "BOULDERBADGE!"
-	cont "Go right ahead!@"
+	text "¡Oh! ¡Ésa es la"
+	line "MEDALLA ROCA!"
+	cont "¡Puedes pasar!@"
 	text_end
+

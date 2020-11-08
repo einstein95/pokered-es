@@ -62,6 +62,16 @@ MACRO EventFlagAddress
 ENDM
 
 
+MACRO EventFlagAddressA
+	DEF event_byte = ((\1) / 8)
+	ld [wEventFlags + event_byte], a
+ENDM
+
+MACRO AEventFlagAddress
+	DEF event_byte = ((\1) / 8)
+	ld a, [wEventFlags + event_byte]
+ENDM
+
 ;\1 = event index
 MACRO CheckEventHL
 	DEF event_byte = ((\1) / 8)
@@ -135,6 +145,27 @@ MACRO CheckAndResetEventA
 	bit (\1) % 8, a
 	res (\1) % 8, a
 	ld [wEventFlags + ((\1) / 8)], a
+ENDM
+
+
+MACRO CheckAndSetEventReuseHL
+	IF event_byte != ((\1) / 8)
+		DEF event_byte = ((\1) / 8)
+		ld hl, wEventFlags + event_byte
+	ENDC
+
+	bit (\1) % 8, [hl]
+	set (\1) % 8, [hl]
+ENDM
+
+MACRO CheckAndResetEventReuseHL
+	IF event_byte != ((\1) / 8)
+		DEF event_byte = ((\1) / 8)
+		ld hl, wEventFlags + event_byte
+	ENDC
+
+	bit (\1) % 8, [hl]
+	res (\1) % 8, [hl]
 ENDM
 
 
@@ -441,6 +472,36 @@ MACRO CheckEitherEventSet
 	ENDC
 ENDM
 
+
+MACRO CheckEitherEventSetReuseA
+	IF event_byte != ((\1) / 8)
+		DEF event_byte = ((\1) / 8)
+		ld a, [wEventFlags + event_byte]
+	ENDC
+	IF ((\1) / 8) == ((\2) / 8)
+		ld a, [wEventFlags + ((\1) / 8)]
+		and (1 << ((\1) % 8)) | (1 << ((\2) % 8))
+	ELSE
+		; This case doesn't happen in the original ROM.
+		IF ((\1) % 8) == ((\2) % 8)
+			push hl
+			ld a, [wEventFlags + ((\1) / 8)]
+			ld hl, wEventFlags + ((\2) / 8)
+			or [hl]
+			bit ((\1) % 8), a
+			pop hl
+		ELSE
+			push bc
+			ld a, [wEventFlags + ((\1) / 8)]
+			and (1 << ((\1) % 8))
+			ld b, a
+			ld a, [wEventFlags + ((\2) / 8)]
+			and (1 << ((\2) % 8))
+			or b
+			pop bc
+		ENDC
+	ENDC
+ENDM
 
 ; for handling fixed event bits when events are inserted/removed
 ;\1 = event index

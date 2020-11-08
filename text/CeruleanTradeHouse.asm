@@ -1,9 +1,11 @@
 _CeruleanTradeHouseGrannyText::
-	text "My husband likes"
-	line "trading #MON."
+	text "A mi marido le"
+	line "gusta cambiar"
+	cont "#MON."
 
-	para "If you are a"
-	line "collector, would"
-	cont "you please trade"
-	cont "with him?"
+	para "Si eres un"
+	line "coleccionista,"
+	cont "¿podrías cambiar"
+	cont "con él?"
 	done
+

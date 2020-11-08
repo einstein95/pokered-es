@@ -1,74 +1,83 @@
 _RocketHideoutB4FGiovanniImpressedYouGotHereText::
-	text "So! I must say, I"
-	line "am impressed you"
-	cont "got here!"
+	text "¡Mmm! ¡Estoy muy"
+	line "impresionado de"
+	cont "que hayas llegado"
+	cont "hasta aquí!"
 	done
 
 _RocketHideoutB4FGiovanniWhatCannotBeText::
-	text "WHAT!"
-	line "This cannot be!"
+	text "¿QUÉ?"
+	line "¡Esto es"
+	cont "imposible!"
 	prompt
 
 _RocketHideoutB4FGiovanniHopeWeMeetAgainText::
-	text "I see that you"
-	line "raise #MON"
-	cont "with utmost care."
+	text "Ya veo que has"
+	line "entrenado a tus"
+	cont "#MON con"
+	cont "mucho cuidado."
 
-	para "A child like you"
-	line "would never"
-	cont "understand what I"
-	cont "hope to achieve."
+	para "¡Un niño como tú"
+	line "jamás entendería"
+	cont "cuáles son mis"
+	cont "planes!"
 
-	para "I shall step"
-	line "aside this time!"
+	para "¡En esta ocasión"
+	line "te dejaré pasar!"
 
-	para "I hope we meet"
-	line "again..."
+	para "Espero que nos"
+	line "volvamos a ver."
 	done
 
 _RocketHideoutB4FRocket1BattleText::
-	text "I know you! You"
-	line "ruined our plans"
-	cont "at MT.MOON!"
+	text "¡Te conozco! ¡Tú"
+	line "arruinaste"
+	cont "nuestros planes"
+	cont "en MT. MOON!"
 	done
 
 _RocketHideoutB4FRocket1EndBattleText::
-	text "Burned"
-	line "again!"
+	text_start
+	line "¡Chamuscado"
+	cont "otra vez!"
 	prompt
 
 _RocketHideoutB4FRocket1AfterBattleText::
-	text "Do you have"
-	line "something against"
+	text "¿Tienes algo"
+	line "en contra del"
 	cont "TEAM ROCKET?"
 	done
 
 _RocketHideoutB4FRocket2BattleText::
-	text "How can you not"
-	line "see the beauty of"
-	cont "our evil?"
+	text "¿Acaso no ves"
+	line "la belleza de"
+	cont "nuestros actos"
+	cont "malvados?"
 	done
 
 _RocketHideoutB4FRocket2EndBattleText::
-	text "Ayaya!"
+	text "¡Ayayay!"
 	prompt
 
 _RocketHideoutB4FRocket2AfterBattleText::
-	text "BOSS! I'm sorry I"
-	line "failed you!"
+	text "¡JEFE! ¡Siento"
+	line "haberle fallado!"
 	done
 
 _RocketHideoutB4FRocket3BattleText::
-	text "The elevator"
-	line "doesn't work? Who"
-	cont "has the LIFT KEY?"
+	text "¿No funciona el"
+	line "ascensor? ¿Quién"
+	cont "tiene la LLAVE"
+	cont "del ASCENSOR?"
 	done
 
 _RocketHideoutB4FRocket3EndBattleText::
-	text "No!"
+	text "¡No!"
 	prompt
 
 _RocketHideoutB4FRocket3AfterBattleText::
-	text "Oh no! I dropped"
-	line "the LIFT KEY!"
+	text "¡Oh no! ¡He"
+	line "perdido la LLAVE"
+	cont "del ASCENSOR!"
 	done
+

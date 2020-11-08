@@ -1,37 +1,39 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home some day."
-	cont "It said so on TV."
+	text "MAMÁ: Bien."
+	line "Todos los niños"
+	cont "se van de casa"
+	cont "algún día."
+	cont "¡Así es la vida!"
 
-	para "PROF.OAK, next"
-	line "door, is looking"
-	cont "for you."
+	para "Nuestro vecino,"
+	line "el PROF. OAK,"
+	cont "quería verte."
 	done
 
 _RedsHouse1FMomYouShouldRestText::
-	text "MOM: <PLAYER>!"
-	line "You should take a"
-	cont "quick rest."
+	text "MAMÁ: ¡<PLAYER>!"
+	line "Deberías tomarte"
+	cont "un descanso."
 	prompt
 
 _RedsHouse1FMomLookingGreatText::
-	text "MOM: Oh good!"
-	line "You and your"
-	cont "#MON are"
-	cont "looking great!"
-	cont "Take care now!"
+	text "MAMÁ: ¡Muy bien!"
+	line "¡Tú y tus"
+	cont "#MON estáis"
+	cont "en plena forma!"
+	cont "¡Cuídate!"
 	done
 
 _RedsHouse1FTVStandByMeMovieText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	text "¡Hay una película"
+	line "en la TV! 4 niños"
+	cont "caminan por las"
+	cont "vías del tren."
 
-	para "I better go too."
+	para "¡Debería irme!"
 	done
 
 _RedsHouse1FTVWrongSideText::
-	text "Oops, wrong side."
+	text "¡Ay! Me equivoqué"
+	line "de lado."
 	done

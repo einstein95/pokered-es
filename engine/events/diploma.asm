@@ -36,7 +36,7 @@ DisplayDiploma::
 	pop bc
 	dec c
 	jr nz, .placeTextLoop
-	hlcoord 10, 4
+	hlcoord 11, 4
 	ld de, wPlayerName
 	call PlaceString
 	farcall DrawPlayerCharacter
@@ -101,17 +101,17 @@ DiplomaText:
 	db CIRCLE_TILE_ID, "Diploma", CIRCLE_TILE_ID, "@"
 
 DiplomaPlayer:
-	db "Player@"
+	db "Jugador@"
 
 DiplomaEmptyText:
 	db "@"
 
 DiplomaCongrats:
-	db   "Congrats! This"
-	next "diploma certifies"
-	next "that you have"
-	next "completed your"
-	next "#DEX.@"
+	db   "¡Felicidades! Se"
+	next "certifica que has"
+	next "completado"
+	next "con éxito"
+	next "tu POKéDEX.@"
 
 DiplomaGameFreak:
 	db "GAME FREAK@"

@@ -1,135 +1,146 @@
 _SilphCo11FSilphPresidentText::
-	text "PRESIDENT: Thank"
-	line "you for saving"
-	cont "SILPH!"
+	text "PRESIDENTE:"
+	line "¡Gracias por"
+	cont "salvar a SILPH!"
 
-	para "I will never"
-	line "forget you saved"
-	cont "us in our moment"
-	cont "of peril!"
+	para "¡Jamás olvidaré"
+	line "que nos salvaste"
+	cont "en este peligroso"
+	cont "momento!"
 
-	para "I have to thank"
-	line "you in some way!"
+	para "¡Me gustaría"
+	line "agradecértelo"
+	cont "de alguna forma!"
 
-	para "Because I am rich,"
-	line "I can give you"
-	cont "anything!"
+	para "Como soy rico,"
+	line "¡puedo darte"
+	cont "lo que quieras!"
 
-	para "Here, maybe this"
-	line "will do!"
+	para "¡Toma, puede que"
+	line "te interese!"
 	prompt
 
 _SilphCo11FSilphPresidentReceivedMasterBallText::
-	text "<PLAYER> got a"
+	text "¡<PLAYER> ganó"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SilphCo11FSilphPresidentMasterBallDescriptionText::
-	text "PRESIDENT: You"
-	line "can't buy that"
-	cont "anywhere!"
+	text "PRESIDENTE: ¡No"
+	line "puedes comprarla"
+	cont "en ningún sitio!"
 
-	para "It's our secret"
-	line "prototype MASTER"
-	cont "BALL!"
+	para "¡Es nuestro"
+	line "prototipo secreto"
+	cont "de la"
+	cont "MASTER BALL!"
 
-	para "It will catch any"
-	line "#MON without"
-	cont "fail!"
+	para "¡Puede atrapar a"
+	line "cualquier tipo"
+	cont "de #MON!"
 
-	para "You should be"
-	line "quiet about using"
-	cont "it, though."
+	para "Pero mejor que"
+	line "no se lo digas"
+	cont "a nadie."
 	done
 
 _SilphCo11FSilphPresidentNoRoomText::
-	text "You have no"
-	line "room for this."
+	text "No tienes sitio"
+	line "para esto."
 	done
 
 _SilphCo11FBeautyText::
-	text "SECRETARY: Thank"
-	line "you for rescuing"
-	cont "all of us!"
+	text "SECRETARIA:"
+	line "¡Gracias por"
+	cont "salvarnos!"
 
-	para "We admire your"
-	line "courage."
+	para "Admiramos"
+	line "tu valor."
 	done
 
 _SilphCo11FGiovanniText::
-	text "Ah <PLAYER>!"
-	line "So we meet again!"
+	text "¡Hola <PLAYER>!"
+	line "¡Volvemos a"
+	cont "encontrarnos!"
 
-	para "The PRESIDENT and"
-	line "I are discussing"
-	cont "a vital business"
-	cont "proposition."
+	para "¡El PRESIDENTE y"
+	line "yo estamos"
+	cont "hablando de algo"
+	cont "muy importante!"
 
-	para "Keep your nose"
-	line "out of grown-up"
-	cont "matters..."
+	para "¡No te metas"
+	line "en los asuntos"
+	cont "de los mayores!"
 
-	para "Or, experience a"
-	line "world of pain!"
+	para "¡O sufrirás"
+	line "mi ira!"
 	done
 
 _SilphCo10FGiovanniILostAgainText::
-	text "Arrgh!!"
-	line "I lost again!?"
+	text "¡¡Arr!!"
+	line "¿¡He vuelto a"
+	cont "perder!?"
 	prompt
 
 _SilphCo11FGiovanniYouRuinedOurPlansText::
-	text "Blast it all!"
-	line "You ruined our"
-	cont "plans for SILPH!"
+	text "¡Qué mal!"
+	line "¡Arruinaste"
+	cont "nuestros planes"
+	cont "con respecto a"
+	cont "SILPH!"
 
-	para "But, TEAM ROCKET"
-	line "will never fall!"
+	para "¡Pero el TEAM"
+	line "ROCKET no caerá"
+	cont "jamás!"
 
-	para "<PLAYER>! Never"
-	line "forget that all"
-	cont "#MON exist"
-	cont "for TEAM ROCKET!"
+	para "¡<PLAYER>, no"
+	line "olvides jamás"
+	cont "que todos los"
+	cont "#MON son"
+	cont "para el"
+	cont "TEAM ROCKET!"
 
-	para "I must go, but I"
-	line "shall return!"
+	para "¡Ahora debo irme,"
+	line "pero volveré!"
 	done
 
 _SilphCo11FRocket1BattleText::
-	text "Stop right there!"
-	line "Don't you move!"
+	text "¡Alto ahí!"
+	line "¡No te muevas!"
 	done
 
 _SilphCo11FRocket1EndBattleText::
-	text "Don't..."
-	line "Please!"
+	text "No..."
+	line "¡Por favor!"
 	prompt
 
 _SilphCo11FRocket1AfterBattleText::
-	text "So, you want to"
-	line "see my BOSS?"
+	text "¿¡Qué!? ¿Quieres"
+	line "ver a mi JEFE?"
 	done
 
 _SilphCo11FRocket2BattleText::
-	text "Halt! Do you have"
-	line "an appointment"
-	cont "with my BOSS?"
+	text "¡Alto! ¿Tienes"
+	line "una cita con"
+	cont "mi JEFE?"
 	done
 
 _SilphCo11FRocket2EndBattleText::
-	text "Gaah!"
-	line "Demolished!"
+	text "¡Auch!"
+	line "¡Derribado!"
 	prompt
 
 _SilphCo11FRocket2AfterBattleText::
-	text "Watch your step,"
-	line "my BOSS likes his"
-	cont "#MON tough!"
+	text "Ten cuidado,"
+	line "¡Los #MON"
+	cont "de mi JEFE son"
+	cont "terribles!"
 	done
 
 _SilphCo10FPorygonText::
-	text "The monitor has"
-	line "#MON on it!"
+	text "¡Hay un #MON"
+	line "en el monitor!"
 	done
+

@@ -1,6 +1,9 @@
 _Route2TradeHouseScientistText::
-	text "A fainted #MON"
-	line "can't fight. But, "
-	cont "it can still use "
-	cont "moves like CUT!"
+	text "Un #MON"
+	line "debilitado no"
+	cont "puede luchar."
+	cont "¡Pero puede usar"
+	cont "movimientos como"
+	cont "el de CORTAR!"
 	done
+

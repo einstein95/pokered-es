@@ -324,11 +324,14 @@ DisplayNamingScreen:
 	jp EraseMenuCursor
 
 LoadEDTile:
-	ld de, ED_Tile
-	ld hl, vFont tile $70
+	call DisableLCD
+	ld de, vFont tile $70
+	ld hl, ED_Tile
 	; BUG: BANK("Home") should be BANK(ED_Tile), although it coincidentally works as-is
-	lb bc, BANK("Home"), (ED_TileEnd - ED_Tile) / TILE_1BPP_SIZE
-	jp CopyVideoDataDouble
+	lb bc, BANK("Home"), (ED_TileEnd - ED_Tile)
+	ld a, $01
+	call FarCopyDataDouble
+	jp EnableLCD
 
 ED_Tile:
 	INCBIN "gfx/font/ED.1bpp"
@@ -455,10 +458,10 @@ PrintNamingText:
 	ld a, [wNamingScreenType]
 	ld de, YourTextString
 	and a
-	jr z, .notNickname
+	jr z, .placeString
 	ld de, RivalsTextString
 	dec a
-	jr z, .notNickname
+	jr z, .placeString
 	ld a, [wCurPartySpecies]
 	ld [wMonPartySpriteSpecies], a
 	push af
@@ -468,28 +471,21 @@ PrintNamingText:
 	call GetMonName
 	hlcoord 4, 1
 	call PlaceString
-	ld hl, $1
-	add hl, bc
-	ld [hl], 'の' ; leftover from Japanese version; blank tile $c9 in English
 	hlcoord 1, 3
 	ld de, NicknameTextString
 	jr .placeString
-.notNickname
-	call PlaceString
-	ld l, c
-	ld h, b
-	ld de, NameTextString
+
 .placeString
 	jp PlaceString
 
 YourTextString:
-	db "YOUR @"
+	db "¿TU NOMBRE?@"
 
 RivalsTextString:
-	db "RIVAL's @"
+	db "¿NOMBRE RIVAL?@"
 
 NameTextString:
-	db "NAME?@"
+	db "¿NOMBRE?@"
 
 NicknameTextString:
-	db "NICKNAME?@"
+	db "¿APODO?@"

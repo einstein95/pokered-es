@@ -978,6 +978,7 @@ wLearningMovesFromDayCare::
 wAIItem:: db
 wUsedItemOnWhichPokemon:: db
 ENDU
+	ds 5
 
 ; sound ID during battle animations
 wAnimSoundID:: db
