@@ -293,10 +293,10 @@ LinkMenu:
 	call Delay3
 	call CloseLinkConnection
 	ld hl, LinkCanceledText
-	vc_hook Wireless_net_end
 	call PrintText
 	ld hl, wStatusFlags4
 	res BIT_LINK_CONNECTED, [hl]
+	vc_hook Wireless_net_end
 	ret
 
 WhereWouldYouLikeText:

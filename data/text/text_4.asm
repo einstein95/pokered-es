@@ -226,11 +226,10 @@ _CableClubNPCPleaseWaitText::
 _CableClubNPCLinkClosedBecauseOfInactivityText::
 	vc_patch Change_link_closed_inactivity_message
 IF DEF(_RED_VC) || DEF(_BLUE_VC)
-	text "Please come again!"
+	text "¡Vuelve otra vez"
+	line "cuando quieras!"
 	done
-	text_start
-	db   "osed because of"
-	cont "inactivity."
+	db "<NULL>tividad."
 ELSE
 	text "El enlace ha sido"
 	line "cerrado por"
